@@ -105,7 +105,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
             public void onMapClick(LatLng point) {
 
                 // Already two locations
-                if (MarkerPoints.size() > 1) {
+                if (MarkerPoints.size() > 6) {
                     MarkerPoints.clear();
                     mMap.clear();
                 }
@@ -127,6 +127,8 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
                     options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
                 } else if (MarkerPoints.size() == 2) {
                     options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
+                }else {
+                    options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
                 }
 
 
@@ -134,12 +136,17 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
                 mMap.addMarker(options);
 
                 // Checks, whether start and end locations are captured
-                if (MarkerPoints.size() >= 2) {
+                if (MarkerPoints.size() >= 7) {
                     LatLng origin = MarkerPoints.get(0);
                     LatLng dest = MarkerPoints.get(1);
+                    LatLng waypoint=MarkerPoints.get(2);
+                    LatLng waypoint1=MarkerPoints.get(3);
+                    LatLng waypoint2=MarkerPoints.get(4);
+                    LatLng waypoint3=MarkerPoints.get(5);
+                    LatLng waypoint4=MarkerPoints.get(6);//5 waypoints+origin+dest
 
                     // Getting URL to the Google Directions API
-                    String url = getUrl(origin, dest);
+                    String url = getUrl(origin, dest,waypoint,waypoint1,waypoint2,waypoint3,waypoint4);
                     Log.d("onMapClick", url.toString());
                     FetchUrl FetchUrl = new FetchUrl();
 
@@ -155,10 +162,18 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
 
     }
 
-    private String getUrl(LatLng origin, LatLng dest) {
+    private String getUrl(LatLng origin, LatLng dest, LatLng waypoint, LatLng waypoint1,LatLng waypoint2,LatLng waypoint3,LatLng waypoint4) {
 
         // Origin of route
         String str_origin = "origin=" + origin.latitude + "," + origin.longitude;
+        String str_waypoint="waypoints="+waypoint.latitude+","+waypoint.longitude;
+        String str_waypoint1="|"+waypoint1.latitude+","+waypoint1.longitude;
+        String str_waypoint2="|"+waypoint2.latitude+","+waypoint2.longitude;
+        String str_waypoint3="|"+waypoint3.latitude+","+waypoint3.longitude;
+        String str_waypoint4="|"+waypoint4.latitude+","+waypoint4.longitude;
+
+
+
 
         // Destination of route
         String str_dest = "destination=" + dest.latitude + "," + dest.longitude;
@@ -168,7 +183,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         String sensor = "sensor=false";
 
         // Building the parameters to the web service
-        String parameters = str_origin + "&" + str_dest + "&" + sensor;
+        String parameters = str_origin + "&" + str_dest + "&" + str_waypoint+str_waypoint1+str_waypoint2+str_waypoint3+str_waypoint3+str_waypoint4+"&"+sensor;
 
         // Output format
         String output = "json";
