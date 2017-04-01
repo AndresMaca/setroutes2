@@ -82,7 +82,7 @@ public class DataParser {
                 result |= (b & 0x1f) << shift;
                 shift += 5;
             } while (b >= 0x20);
-            int dlat = ((result & 1) != 0 ? ~(result >> 1) : (result >> 1));
+            int dlat = ((result & 1) != 0 ? ~(result >> 1) : (result >> 1));//variable x = (expression) ? value if true : value if false
             lat += dlat;
 
             shift = 0;

@@ -52,7 +52,15 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     Location mLastLocation;
     Marker mCurrLocationMarker;
     LocationRequest mLocationRequest;
+/*
+TODO ya se estableció como hacer las rutas, ahora necesito subir las rutas a la nube y que se descargue segun se requiera
 
+
+La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea posible, realiza una geocodificación previa de las direcciones conocidas (usando la Google Maps Geocoding API que se describe aquí u otro servicio de geocodificación) y guarda tus resultados en un caché temporal de tu propio diseño.
+
+
+
+ */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -229,14 +237,14 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
 
         } catch (Exception e) {
             Log.d("Exception", e.toString());
-        } finally {
+        } finally {//Este bloque se ejecuta independientemente si se produjo una excepcion
             iStream.close();
             urlConnection.disconnect();
         }
         return data;
     }
 
-    // Fetches data from url passed
+    // Fetches data from url passed fetch-> recuperar ,ir a buscar, traer a;
     private class FetchUrl extends AsyncTask<String, Void, String> {
 
         @Override
