@@ -29,16 +29,16 @@ public class DataParser {
             jRoutes = jObject.getJSONArray("routes");
 
             /** Traversing all routes */
-            for(int i=0;i<jRoutes.length();i++){
+            for(int i=0;i<jRoutes.length();i++){//Returns the number of name/value mappings in this object.
                 jLegs = ( (JSONObject)jRoutes.get(i)).getJSONArray("legs");
                 List path = new ArrayList<>();
 
                 /** Traversing all legs */
-                for(int j=0;j<jLegs.length();j++){
+                for(int j=0;j<jLegs.length();j++){// cada uno de los legs tiene steps
                     jSteps = ( (JSONObject)jLegs.get(j)).getJSONArray("steps");
 
                     /** Traversing all steps */
-                    for(int k=0;k<jSteps.length();k++){
+                    for(int k=0;k<jSteps.length();k++){//Cada steps Tiene Polylynes, en los Steps
                         String polyline = "";
                         polyline = (String)((JSONObject)((JSONObject)jSteps.get(k)).get("polyline")).get("points");
                         List<LatLng> list = decodePoly(polyline);
@@ -51,8 +51,10 @@ public class DataParser {
                             path.add(hm);
                         }
                     }
-                    routes.add(path);
+                    //Antes estaba aqui
                 }
+                routes.add(path);///Aqui se tiene que poner el codigo, si no lo repite n veces
+
             }
 
         } catch (JSONException e) {
@@ -63,11 +65,12 @@ public class DataParser {
 
         return routes;
     }
-
+//Todo creo que se puede enviar el path directamente; para que no hayan n caminos iguales
 
     /**
      * Method to decode polyline points
      * Courtesy : http://jeffreysambells.com/2010/05/27/decoding-polylines-from-google-maps-direction-api-with-java
+     * https://developers.google.com/maps/documentation/utilities/polylinealgorithm
      * */
     private List<LatLng> decodePoly(String encoded) {
 
