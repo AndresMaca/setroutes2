@@ -51,6 +51,10 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         GoogleApiClient.OnConnectionFailedListener,
         LocationListener {
 
+
+    //Todo list CCC Decodificar los puntos de la lista de FB;
+
+
     private GoogleMap mMap;
     ArrayList<LatLng> MarkerPoints;
     GoogleApiClient mGoogleApiClient;
@@ -62,23 +66,24 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     private DatabaseReference myRef3;
     private DatabaseReference myRef2;
     Object strRoute;
-/*
-TODO ya se estableció como hacer las rutas, ahora necesito subir las rutas a la nube y que se descargue segun se requiera
+
+    /*
+    TODO ya se estableció como hacer las rutas, ahora necesito subir las rutas a la nube y que se descargue segun se requiera
 
 
-La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea posible, realiza una geocodificación previa de las direcciones conocidas (usando la Google Maps Geocoding API que se describe aquí u otro servicio de geocodificación) y guarda tus resultados en un caché temporal de tu propio diseño.
+    La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea posible, realiza una geocodificación previa de las direcciones conocidas (usando la Google Maps Geocoding API que se describe aquí u otro servicio de geocodificación) y guarda tus resultados en un caché temporal de tu propio diseño.
 
 
 
- */
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-         database = FirebaseDatabase.getInstance();
-         myRef = database.getReference("message");
-        myRef2=database.getReference("data");
-        myRef3=database.getReference("Json");
+        database = FirebaseDatabase.getInstance();
+        myRef = database.getReference("message");
+        myRef2 = database.getReference("data");
+        myRef3 = database.getReference("Json");
 
 
         if (android.os.Build.VERSION.SDK_INT >= M) {
@@ -89,9 +94,9 @@ La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea 
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         //SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-           ///     .findFragmentById(R.id.map);
-       /// mapFragment.getMapAsync(this);
-        MapFragment mapFragment=(MapFragment)getFragmentManager().findFragmentById(R.id.map);
+        ///     .findFragmentById(R.id.map);
+        /// mapFragment.getMapAsync(this);
+        MapFragment mapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
     }
 
@@ -150,7 +155,7 @@ La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea 
                     options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
                 } else if (MarkerPoints.size() == 2) {
                     options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
-                }else {
+                } else {
                     options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
                 }
 
@@ -162,14 +167,14 @@ La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea 
                 if (MarkerPoints.size() >= 3) {
                     LatLng origin = MarkerPoints.get(0);
                     LatLng dest = MarkerPoints.get(1);
-                    LatLng waypoint=MarkerPoints.get(2);
-       //             LatLng waypoint1=MarkerPoints.get(3);
-         //           LatLng waypoint2=MarkerPoints.get(4);
-           ///         LatLng waypoint3=MarkerPoints.get(5);
-              //      LatLng waypoint4=MarkerPoints.get(6);//5 waypoints+origin+dest
+                    LatLng waypoint = MarkerPoints.get(2);
+                    //             LatLng waypoint1=MarkerPoints.get(3);
+                    //           LatLng waypoint2=MarkerPoints.get(4);
+                    ///         LatLng waypoint3=MarkerPoints.get(5);
+                    //      LatLng waypoint4=MarkerPoints.get(6);//5 waypoints+origin+dest
 
                     // Getting URL to the Google Directions API
-                    String url = getUrl(origin, dest,waypoint);//waypoint1,waypoint2,waypoint3,waypoint4);
+                    String url = getUrl(origin, dest, waypoint);//waypoint1,waypoint2,waypoint3,waypoint4);
                     Log.d("onMapClick", url.toString());
                     FetchUrl FetchUrl = new FetchUrl();
 
@@ -185,17 +190,15 @@ La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea 
 
     }
 
-    private String getUrl(LatLng origin, LatLng dest, LatLng waypoint){ //LatLng waypoint1,LatLng waypoint2,LatLng waypoint3,LatLng waypoint4) {
+    private String getUrl(LatLng origin, LatLng dest, LatLng waypoint) { //LatLng waypoint1,LatLng waypoint2,LatLng waypoint3,LatLng waypoint4) {
 
         // Origin of route
         String str_origin = "origin=" + origin.latitude + "," + origin.longitude;
-        String str_waypoint="waypoints="+waypoint.latitude+","+waypoint.longitude;
-      //  String str_waypoint1="|"+waypoint1.latitude+","+waypoint1.longitude;
-      //  String str_waypoint2="|"+waypoint2.latitude+","+waypoint2.longitude;
-     //   String str_waypoint3="|"+waypoint3.latitude+","+waypoint3.longitude;
-     //   String str_waypoint4="|"+waypoint4.latitude+","+waypoint4.longitude;
-
-
+        String str_waypoint = "waypoints=" + waypoint.latitude + "," + waypoint.longitude;
+        //  String str_waypoint1="|"+waypoint1.latitude+","+waypoint1.longitude;
+        //  String str_waypoint2="|"+waypoint2.latitude+","+waypoint2.longitude;
+        //   String str_waypoint3="|"+waypoint3.latitude+","+waypoint3.longitude;
+        //   String str_waypoint4="|"+waypoint4.latitude+","+waypoint4.longitude;
 
 
         // Destination of route
@@ -206,7 +209,7 @@ La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea 
         String sensor = "sensor=false";
 
         // Building the parameters to the web service
-        String parameters = str_origin + "&" + str_dest + "&" + str_waypoint+"&"+sensor;//str_waypoint1+str_waypoint2+str_waypoint3+str_waypoint3+str_waypoint4+"&"+sensor;
+        String parameters = str_origin + "&" + str_dest + "&" + str_waypoint + "&" + sensor;//str_waypoint1+str_waypoint2+str_waypoint3+str_waypoint3+str_waypoint4+"&"+sensor;
 
         // Output format
         String output = "json";
@@ -307,7 +310,7 @@ La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea 
                 jObject = new JSONObject(jsonData[0]);
                 Log.d("ParserTask", jsonData[0].toString());
                 DataParser parser = new DataParser();
-             //   myRef3.setValue(jObject);
+                //   myRef3.setValue(jObject);
                 Log.d("ParserTask", parser.toString());
 
                 // Starts parsing data
@@ -329,7 +332,7 @@ La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea 
 
             ArrayList<LatLng> points;
             PolylineOptions lineOptions = null;
-           // String helper;
+            // String helper;
             //helper=myRef.
 
             // Traversing through all the routes
@@ -363,7 +366,7 @@ La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea 
             // Drawing polyline in the Google Map for the i-th route
             if (lineOptions != null) {
                 mMap.addPolyline(lineOptions);
-           //     getRoutes();
+                //     getRoutes();
             } else {
                 Log.d("onPostExecute", "without Polylines drawn");
             }
@@ -390,7 +393,7 @@ La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea 
                 Manifest.permission.ACCESS_FINE_LOCATION)
                 == PackageManager.PERMISSION_GRANTED) {
             //LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
-            LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest,  this);
+            LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
         }
 
     }
@@ -499,13 +502,14 @@ La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea 
             // You can add here other case statements according to your requirement.
         }
     }
-    public void getRoutes(){
+
+    public void getRoutes() {
         myRef.addListenerForSingleValueEvent(
                 new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                         strRoute= dataSnapshot.getValue();
-                        Log.d("getRoutes",strRoute.toString());
+                        strRoute = dataSnapshot.getValue();
+                        Log.d("getRoutes", strRoute.toString());
                         Toast.makeText(MainActivity.this, strRoute.toString(), Toast.LENGTH_SHORT).show();
 
                     }
