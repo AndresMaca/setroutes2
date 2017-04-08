@@ -10,6 +10,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
+import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -32,14 +33,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -54,7 +50,6 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
 
     //Todo list CCC Decodificar los puntos de la lista de FB;
 
-
     private GoogleMap mMap;
     ArrayList<LatLng> MarkerPoints;
     GoogleApiClient mGoogleApiClient;
@@ -63,9 +58,11 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     LocationRequest mLocationRequest;
     private FirebaseDatabase database;
     private DatabaseReference myRef;
-    private DatabaseReference myRef3;
-    private DatabaseReference myRef2;
+
     Object strRoute;
+    private Object o;
+    private String string;
+    private Boolean ready = false;
 
     /*
     TODO ya se estableció como hacer las rutas, ahora necesito subir las rutas a la nube y que se descargue segun se requiera
@@ -82,8 +79,6 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         setContentView(R.layout.activity_main);
         database = FirebaseDatabase.getInstance();
         myRef = database.getReference("message");
-        myRef2 = database.getReference("data");
-        myRef3 = database.getReference("Json");
 
 
         if (android.os.Build.VERSION.SDK_INT >= M) {
@@ -91,6 +86,22 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         }
         // Initializing
         MarkerPoints = new ArrayList<>();
+        myRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+
+                o = dataSnapshot.getValue(Object.class);
+                string = o.toString();
+                // Toast.makeText(MainActivity.this, string, Toast.LENGTH_SHORT).show();
+                ready = true;
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         //SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
@@ -127,170 +138,54 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         }
 
         // Setting onclick event listener for the map
-        mMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
-
-            @Override
-            public void onMapClick(LatLng point) {
-
-                // Already two locations
-                if (MarkerPoints.size() > 2) {
-                    MarkerPoints.clear();
-                    mMap.clear();
-                }
-
-                // Adding new item to the ArrayList
-                MarkerPoints.add(point);
-
-                // Creating MarkerOptions
-                MarkerOptions options = new MarkerOptions();
-
-                // Setting the position of the marker
-                options.position(point);
-
-                /**
-                 * For the start location, the color of marker is GREEN and
-                 * for the end location, the color of marker is RED.
-                 */
-                if (MarkerPoints.size() == 1) {
-                    options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
-                } else if (MarkerPoints.size() == 2) {
-                    options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
-                } else {
-                    options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
-                }
-
-
-                // Add new marker to the Google Map Android API V2
-                mMap.addMarker(options);
-
-                // Checks, whether start and end locations are captured
-                if (MarkerPoints.size() >= 3) {
-                    LatLng origin = MarkerPoints.get(0);
-                    LatLng dest = MarkerPoints.get(1);
-                    LatLng waypoint = MarkerPoints.get(2);
-                    //             LatLng waypoint1=MarkerPoints.get(3);
-                    //           LatLng waypoint2=MarkerPoints.get(4);
-                    ///         LatLng waypoint3=MarkerPoints.get(5);
-                    //      LatLng waypoint4=MarkerPoints.get(6);//5 waypoints+origin+dest
-
-                    // Getting URL to the Google Directions API
-                    String url = getUrl(origin, dest, waypoint);//waypoint1,waypoint2,waypoint3,waypoint4);
-                    Log.d("onMapClick", url.toString());
-                    FetchUrl FetchUrl = new FetchUrl();
-
-                    // Start downloading json data from Google Directions API
-                    FetchUrl.execute(url);
-                    //move map camera
-                    mMap.moveCamera(CameraUpdateFactory.newLatLng(origin));
-                    mMap.animateCamera(CameraUpdateFactory.zoomTo(15));
-                }
-
-            }
-        });
 
     }
 
-    private String getUrl(LatLng origin, LatLng dest, LatLng waypoint) { //LatLng waypoint1,LatLng waypoint2,LatLng waypoint3,LatLng waypoint4) {
-
-        // Origin of route
-        String str_origin = "origin=" + origin.latitude + "," + origin.longitude;
-        String str_waypoint = "waypoints=" + waypoint.latitude + "," + waypoint.longitude;
-        //  String str_waypoint1="|"+waypoint1.latitude+","+waypoint1.longitude;
-        //  String str_waypoint2="|"+waypoint2.latitude+","+waypoint2.longitude;
-        //   String str_waypoint3="|"+waypoint3.latitude+","+waypoint3.longitude;
-        //   String str_waypoint4="|"+waypoint4.latitude+","+waypoint4.longitude;
-
-
-        // Destination of route
-        String str_dest = "destination=" + dest.latitude + "," + dest.longitude;
-
-
-        // Sensor enabled
-        String sensor = "sensor=false";
-
-        // Building the parameters to the web service
-        String parameters = str_origin + "&" + str_dest + "&" + str_waypoint + "&" + sensor;//str_waypoint1+str_waypoint2+str_waypoint3+str_waypoint3+str_waypoint4+"&"+sensor;
-
-        // Output format
-        String output = "json";
-
-        // Building the url to the web service
-        String url = "https://maps.googleapis.com/maps/api/directions/" + output + "?" + parameters;
-
-
-        return url;
-    }
-
-    /**
-     * A method to download json data from url
-     */
-    private String downloadUrl(String strUrl) throws IOException {
-        String data = "";
-        InputStream iStream = null;
-        HttpURLConnection urlConnection = null;
-        try {
-            URL url = new URL(strUrl);
-
-            // Creating an http connection to communicate with url
-            urlConnection = (HttpURLConnection) url.openConnection();
-
-            // Connecting to url
-            urlConnection.connect();
-
-            // Reading data from url
-            iStream = urlConnection.getInputStream();
-
-            BufferedReader br = new BufferedReader(new InputStreamReader(iStream));
-
-            StringBuffer sb = new StringBuffer();
-
-            String line = "";
-            while ((line = br.readLine()) != null) {
-                sb.append(line);
-            }
-
-            data = sb.toString();
-            Log.d("downloadUrl", data.toString());
-            br.close();
-
-        } catch (Exception e) {
-            Log.d("Exception", e.toString());
-        } finally {//Este bloque se ejecuta independientemente si se produjo una excepcion
-            iStream.close();
-            urlConnection.disconnect();
-        }
-        return data;
-    }
-
-    // Fetches data from url passed fetch-> recuperar ,ir a buscar, traer a;
-    private class FetchUrl extends AsyncTask<String, Void, String> {
+    private class DrawFromServer extends AsyncTask<String, Integer, Void> {
 
         @Override
-        protected String doInBackground(String... url) {
+        protected Void doInBackground(String... params) {
+            if (ready) {
+                JSONArray jsonArray;
+                JSONArray jsonArray1;
+                HashMap<String, String> hashMap = new HashMap<>();
+                List<HashMap> hashMaps = new ArrayList<>();
+                try {
 
-            // For storing data from web service
-            String data = "";
+                    jsonArray = new JSONArray(string);
+                    jsonArray1 = jsonArray.getJSONArray(0);
+                    String data = "";
+                    for (int i = 0; i < jsonArray1.length(); i++) {
+                        JSONObject jsonObject = jsonArray1.getJSONObject(i);
+                        String lat = jsonObject.getString("lat");
+                        String lng = jsonObject.getString("lng");
+                        hashMap.put("lat", lat);
+                        hashMap.put("lng", lng);
+                        hashMaps.add(hashMap);
+                    }
+                    try {
+                        Log.d("HshMAp", "Entrando...");
+                        for (HashMap<String, String> hashMap1 : hashMaps) {
+                            for (String str : hashMap1.values()) {
+                                Double lat = Double.parseDouble(str);
 
-            try {
-                // Fetching the data from web service
-                data = downloadUrl(url[0]);
-                Log.d("Background Task data", data.toString());
-            } catch (Exception e) {
-                Log.d("Background Task", e.toString());
+
+                            }
+                        }
+                        //  textView.setText(data);
+
+                    } catch (Exception e) {
+                        Log.e("String Parse Error", e.toString());
+                    }
+
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Log.d("Parse Error", e.toString());
+                }
+
             }
-            myRef2.setValue(data);
-            return data;
-        }
-
-        @Override
-        protected void onPostExecute(String result) {
-            super.onPostExecute(result);
-
-            ParserTask parserTask = new ParserTask();
-
-            // Invokes the thread for parsing the JSON data
-            parserTask.execute(result);
-
+            return null;
         }
     }
 
@@ -371,6 +266,93 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
                 Log.d("onPostExecute", "without Polylines drawn");
             }
         }
+    }
+
+    public void onClickSrvrDwnld(View view) {
+
+        if (ready) {
+            Toast.makeText(this, "Downloading...", Toast.LENGTH_SHORT).show();
+            ArrayList<LatLng> latLngs;
+            JSONArray jsonArray;
+            JSONArray jsonArray1;
+
+            List<HashMap> hashMaps = new ArrayList<>();
+            try {
+
+                jsonArray = new JSONArray(string);
+                jsonArray1 = jsonArray.getJSONArray(0);
+
+                for (int i = 0; i < jsonArray1.length(); i++) {
+                    JSONObject jsonObject = jsonArray1.getJSONObject(i);
+                    for (int j = 0; j < jsonObject.length(); j++) {
+                        HashMap<String, Double> hashMap1 = new HashMap<>();
+                        String lat = jsonObject.getString("lat");
+                        String lng = jsonObject.getString("lng");
+
+                        //Todo Hacer dos Puntos de prueba
+                        hashMap1.put("lat", Double.parseDouble(jsonObject.getString("lat")));
+                        hashMap1.put("lng", Double.parseDouble(jsonObject.getString("lng")));
+                        hashMaps.add(hashMap1);
+                    }
+
+                }
+                //Toast.makeText(this, "Parse Completed", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, hashMaps.toString(), Toast.LENGTH_LONG).show();
+                try {
+                    Log.i("HshMAp", "Entrando...");
+                    latLngs = new ArrayList<>();
+                    PolylineOptions polylineOptions;
+                    polylineOptions = new PolylineOptions();
+
+                    for (HashMap<String, Double> hashMap1 : hashMaps) {
+                        //       Toast.makeText(this, "lat: "+hashMap1.get("lat")+ "lng: "+hashMap1.get("lng"), Toast.LENGTH_SHORT).show();
+                        LatLng latLng=new LatLng(hashMap1.get("lat"),hashMap1.get("lng"));
+                        latLngs.add(latLng);
+
+
+
+                        ///TODO aqui Ya tenemos todos los puntos;
+
+                    }
+                    // LatLng latLng = new LatLng(2.454954, -76.597619);
+                    //LatLng latLng1 = new LatLng(2.442008, -76.606899);
+                    //  latLngs.add(latLng);
+                    // latLngs.add(latLng1);
+                    Toast.makeText(this, latLngs.toString(), Toast.LENGTH_SHORT).show();
+
+
+                    polylineOptions.addAll(latLngs);
+                    polylineOptions.width(10);
+                    polylineOptions.color(Color.RED);
+                    Toast.makeText(this, "Lat: " + latLngs.get(latLngs.size() - 1).latitude + "Long: " + latLngs.get(latLngs.size() - 1).longitude, Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, "size" + latLngs.size(), Toast.LENGTH_SHORT).show();
+                    if (polylineOptions != null) {
+
+                        mMap.addPolyline(polylineOptions);
+                        Toast.makeText(this, "Add Polyline", Toast.LENGTH_SHORT).show();
+
+                    } else {
+                        Toast.makeText(this, "Poly is null", Toast.LENGTH_SHORT).show();
+                    }
+
+
+                    //  textView.setText(data);
+
+                } catch (Exception e) {
+                    Log.e("String Parse Error", e.toString());
+                    Toast.makeText(this, "Error" + e.toString(), Toast.LENGTH_SHORT).show();
+                }
+
+
+            } catch (Exception e) {
+                e.printStackTrace();
+                Log.d("Parse Error", e.toString());
+                Toast.makeText(this, "Error" + e.toString(), Toast.LENGTH_SHORT).show();
+
+            }
+
+        }
+
     }
 
     protected synchronized void buildGoogleApiClient() {
