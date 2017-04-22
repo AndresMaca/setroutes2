@@ -286,8 +286,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
                     JSONObject jsonObject = jsonArray1.getJSONObject(i);
                     for (int j = 0; j < jsonObject.length(); j++) {
                         HashMap<String, Double> hashMap1 = new HashMap<>();
-                        String lat = jsonObject.getString("lat");
-                        String lng = jsonObject.getString("lng");
+
 
                         //Todo Hacer dos Puntos de prueba
                         hashMap1.put("lat", Double.parseDouble(jsonObject.getString("lat")));
@@ -297,7 +296,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
 
                 }
                 //Toast.makeText(this, "Parse Completed", Toast.LENGTH_SHORT).show();
-                Toast.makeText(this, hashMaps.toString(), Toast.LENGTH_LONG).show();
+                //0Toast.makeText(this, hashMaps.toString(), Toast.LENGTH_LONG).show();
                 try {
                     Log.i("HshMAp", "Entrando...");
                     latLngs = new ArrayList<>();
@@ -318,7 +317,6 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
                     //LatLng latLng1 = new LatLng(2.442008, -76.606899);
                     //  latLngs.add(latLng);
                     // latLngs.add(latLng1);
-                    Toast.makeText(this, latLngs.toString(), Toast.LENGTH_SHORT).show();
 
 
                     polylineOptions.addAll(latLngs);
