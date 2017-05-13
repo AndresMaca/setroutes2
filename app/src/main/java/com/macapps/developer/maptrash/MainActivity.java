@@ -128,7 +128,7 @@ La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea 
             public void onMapClick(LatLng point) {
 
                 // Already two locations
-                if (MarkerPoints.size() > 2) {
+                if (MarkerPoints.size() > 6) {
                     MarkerPoints.clear();
                     mMap.clear();
                 }
@@ -159,17 +159,17 @@ La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea 
                 mMap.addMarker(options);
 
                 // Checks, whether start and end locations are captured
-                if (MarkerPoints.size() >= 3) {
+                if (MarkerPoints.size() >= 7) {
                     LatLng origin = MarkerPoints.get(0);
                     LatLng dest = MarkerPoints.get(1);
                     LatLng waypoint=MarkerPoints.get(2);
-       //             LatLng waypoint1=MarkerPoints.get(3);
-         //           LatLng waypoint2=MarkerPoints.get(4);
-           ///         LatLng waypoint3=MarkerPoints.get(5);
-              //      LatLng waypoint4=MarkerPoints.get(6);//5 waypoints+origin+dest
+                    LatLng waypoint1=MarkerPoints.get(3);
+                    LatLng waypoint2=MarkerPoints.get(4);
+                    LatLng waypoint3=MarkerPoints.get(5);
+                    LatLng waypoint4=MarkerPoints.get(6);//5 waypoints+origin+dest
 
                     // Getting URL to the Google Directions API
-                    String url = getUrl(origin, dest,waypoint);//waypoint1,waypoint2,waypoint3,waypoint4);
+                    String url = getUrl(origin, dest,waypoint,waypoint1,waypoint2,waypoint3,waypoint4);
                     Log.d("onMapClick", url.toString());
                     FetchUrl FetchUrl = new FetchUrl();
 
@@ -185,15 +185,15 @@ La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea 
 
     }
 
-    private String getUrl(LatLng origin, LatLng dest, LatLng waypoint){ //LatLng waypoint1,LatLng waypoint2,LatLng waypoint3,LatLng waypoint4) {
+    private String getUrl(LatLng origin, LatLng dest, LatLng waypoint,LatLng waypoint1,LatLng waypoint2,LatLng waypoint3,LatLng waypoint4) {
 
         // Origin of route
         String str_origin = "origin=" + origin.latitude + "," + origin.longitude;
         String str_waypoint="waypoints="+waypoint.latitude+","+waypoint.longitude;
-      //  String str_waypoint1="|"+waypoint1.latitude+","+waypoint1.longitude;
-      //  String str_waypoint2="|"+waypoint2.latitude+","+waypoint2.longitude;
-     //   String str_waypoint3="|"+waypoint3.latitude+","+waypoint3.longitude;
-     //   String str_waypoint4="|"+waypoint4.latitude+","+waypoint4.longitude;
+        String str_waypoint1="|"+waypoint1.latitude+","+waypoint1.longitude;
+        String str_waypoint2="|"+waypoint2.latitude+","+waypoint2.longitude;
+        String str_waypoint3="|"+waypoint3.latitude+","+waypoint3.longitude;
+        String str_waypoint4="|"+waypoint4.latitude+","+waypoint4.longitude;
 
 
 
@@ -206,7 +206,7 @@ La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea 
         String sensor = "sensor=false";
 
         // Building the parameters to the web service
-        String parameters = str_origin + "&" + str_dest + "&" + str_waypoint+"&"+sensor;//str_waypoint1+str_waypoint2+str_waypoint3+str_waypoint3+str_waypoint4+"&"+sensor;
+        String parameters = str_origin + "&" + str_dest + "&" + str_waypoint+"&"+str_waypoint1+str_waypoint2+str_waypoint3+str_waypoint3+str_waypoint4+"&"+sensor;
 
         // Output format
         String output = "json";
