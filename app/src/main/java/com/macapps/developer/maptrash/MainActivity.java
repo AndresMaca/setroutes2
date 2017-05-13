@@ -59,7 +59,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     LocationRequest mLocationRequest;
     private FirebaseDatabase database;
     private DatabaseReference myRef;
-    private DatabaseReference myRef3;
+     DatabaseReference myRef3;
     private DatabaseReference myRef2;
     Object strRoute;
 /*
