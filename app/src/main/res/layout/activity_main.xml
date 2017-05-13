@@ -58,6 +58,7 @@
             android:layout_height="wrap_content"
             fab:fab_colorNormal="@color/colorAccent"
             android:src="@drawable/ic_cloud_download_black_24dp"
+            android:onClick="onClickSrvrDwnld"
             fab:fab_size="mini" />
 
         <com.github.clans.fab.FloatingActionButton
