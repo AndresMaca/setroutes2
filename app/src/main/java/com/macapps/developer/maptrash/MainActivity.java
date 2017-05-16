@@ -16,7 +16,6 @@ import android.widget.Toast;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationListener;
-
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -28,6 +27,8 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import org.json.JSONObject;
 
@@ -52,19 +53,26 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     Location mLastLocation;
     Marker mCurrLocationMarker;
     LocationRequest mLocationRequest;
-/*
-TODO ya se estableció como hacer las rutas, ahora necesito subir las rutas a la nube y que se descargue segun se requiera
-
-
-La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea posible, realiza una geocodificación previa de las direcciones conocidas (usando la Google Maps Geocoding API que se describe aquí u otro servicio de geocodificación) y guarda tus resultados en un caché temporal de tu propio diseño.
+    private DatabaseReference myRef;
+    private FirebaseDatabase database;
 
 
 
- */
+    /*
+    TODO ya se estableció como hacer las rutas, ahora necesito subir las rutas a la nube y que se descargue segun se requiera
+
+
+    La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea posible, realiza una geocodificación previa de las direcciones conocidas (usando la Google Maps Geocoding API que se describe aquí u otro servicio de geocodificación) y guarda tus resultados en un caché temporal de tu propio diseño.
+
+
+
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        database = FirebaseDatabase.getInstance();
+        myRef = database.getReference();
 
         if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             checkLocationPermission();
@@ -74,8 +82,8 @@ La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea 
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         //SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-           ///     .findFragmentById(R.id.map);
-       /// mapFragment.getMapAsync(this);
+        ///     .findFragmentById(R.id.map);
+        /// mapFragment.getMapAsync(this);
         MapFragment mapFragment=(MapFragment)getFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
     }
@@ -302,6 +310,7 @@ La geocodificación es una tarea que consume tiempo y recursos. Siempre que sea 
                 Log.d("ParserTask", e.toString());
                 e.printStackTrace();
             }
+            myRef.child("rutas").child("ruta2").setValue(routes);
             return routes;
         }
 
