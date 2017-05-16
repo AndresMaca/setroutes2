@@ -1,0 +1,2460 @@
+{
+  "data" : "{   \"geocoded_waypoints\" : [      {         \"geocoder_status\" : \"OK\",         \"place_id\" : \"Ej1DcmEuIDlhICM2MyBOb3J0ZS0yIGEgNjMgTm9ydGUtMjA4LCBQb3BhecOhbiwgQ2F1Y2EsIENvbG9tYmlh\",         \"types\" : [ \"street_address\" ]      },      {         \"geocoder_status\" : \"OK\",         \"place_id\" : \"EjRDbC4gMjUgTnRlLiAjOS00NCBhIDktMTI4LCBQb3BhecOhbiwgQ2F1Y2EsIENvbG9tYmlh\",         \"types\" : [ \"street_address\" ]      },      {         \"geocoder_status\" : \"OK\",         \"place_id\" : \"EjRDbC4gMTVuZSAjMWQtMTU0IGEgMWQtMjM4LCBQb3BhecOhbiwgQ2F1Y2EsIENvbG9tYmlh\",         \"types\" : [ \"street_address\" ]      },      {         \"geocoder_status\" : \"OK\",         \"place_id\" : \"Ei1DbC4gNCAjOS0xIGEgOS0xMTEsIFBvcGF5w6FuLCBDYXVjYSwgQ29sb21iaWE\",         \"types\" : [ \"street_address\" ]      },      {         \"geocoder_status\" : \"OK\",         \"place_id\" : \"EjBDcmEuIDQyYiAjNC0zMCBhIDQtNzIsIFBvcGF5w6FuLCBDYXVjYSwgQ29sb21iaWE\",         \"types\" : [ \"street_address\" ]      },      {         \"geocoder_status\" : \"OK\",         \"place_id\" : \"EjBDcmEuIDQyYiAjNC0zMCBhIDQtNzIsIFBvcGF5w6FuLCBDYXVjYSwgQ29sb21iaWE\",         \"types\" : [ \"street_address\" ]      },      {         \"geocoder_status\" : \"OK\",         \"place_id\" : \"ChIJh9ZCoWcEMI4RyOw6SZ9otGI\",         \"types\" : [ \"route\" ]      },      {         \"geocoder_status\" : \"OK\",         \"place_id\" : \"Ej1DcmEuIDlhICM2MyBOb3J0ZS0yIGEgNjMgTm9ydGUtMjA4LCBQb3BhecOhbiwgQ2F1Y2EsIENvbG9tYmlh\",         \"types\" : [ \"street_address\" ]      }   ],   \"routes\" : [      {         \"bounds\" : {            \"northeast\" : {               \"lat\" : 2.4876736,               \"lng\" : -76.57440059999999            },            \"southwest\" : {               \"lat\" : 2.4424335,               \"lng\" : -76.6395122            }         },         \"copyrights\" : \"Map data ©2017 Google\",         \"legs\" : [            {               \"distance\" : {                  \"text\" : \"4.0 km\",                  \"value\" : 3987               },               \"duration\" : {                  \"text\" : \"9 mins\",                  \"value\" : 525               },               \"end_address\" : \"Cl. 25 Nte. #9-44 a 9-128, Popayán, Cauca, Colombia\",               \"end_location\" : {                  \"lat\" : 2.4596025,                  \"lng\" : -76.59355699999999               },               \"start_address\" : \"Cra. 9a #63 Norte-2 a 63 Norte-208, Popayán, Cauca, Colombia\",               \"start_location\" : {                  \"lat\" : 2.4816252,                  \"lng\" : -76.57440059999999               },               \"steps\" : [                  {                     \"distance\" : {                        \"text\" : \"28 m\",                        \"value\" : 28                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 6                     },                     \"end_location\" : {                        \"lat\" : 2.4816388,                        \"lng\" : -76.5746563                     },                     \"html_instructions\" : \"Head \\u003cb\\u003ewest\\u003c/b\\u003e on \\u003cb\\u003eCra. 9a\\u003c/b\\u003e toward \\u003cb\\u003eCl. 63 Nte.\\u003c/b\\u003e\",                     \"polyline\" : {                        \"points\" : \"eucN~|jrM@FAVAR\"                     },                     \"start_location\" : {                        \"lat\" : 2.4816252,                        \"lng\" : -76.57440059999999                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"58 m\",                        \"value\" : 58                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 52                     },                     \"end_location\" : {                        \"lat\" : 2.4811429,                        \"lng\" : -76.5747689                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eleft\\u003c/b\\u003e onto \\u003cb\\u003eTv 9A Norte\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-left\",                     \"polyline\" : {                        \"points\" : \"gucNr~jrMPBJFJF\\\\?Z@\"                     },                     \"start_location\" : {                        \"lat\" : 2.4816388,                        \"lng\" : -76.5746563                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"3.1 km\",                        \"value\" : 3105                     },                     \"duration\" : {                        \"text\" : \"5 mins\",                        \"value\" : 317                     },                     \"end_location\" : {                        \"lat\" : 2.460389,                        \"lng\" : -76.592432                     },                     \"html_instructions\" : \"Slight \\u003cb\\u003eright\\u003c/b\\u003e onto \\u003cb\\u003eCra. 9\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-slight-right\",                     \"polyline\" : {                        \"points\" : \"crcNh_krMVRPFl@Vh@Th@Rp@^p@\\\\lB|@lB~@JDd@R^RZP\\\\TXTtArAj@l@l@j@NTp@nApBjERh@f@~@PVRTVPb@Tr@ZZFhAFjCJdBBd@BB?TBd@J`@LTLD@d@\\\\lBnBfG~GjAnAjAnAdAnAdAlAb@h@`@h@z@|@x@|@fApAdApApAhAnAhATTB@RPx@p@z@n@fAdAFBnAjAVRXTPNNNl@h@l@j@\\\\Z\\\\Z^X\\\\XbBxA`BxAjB|AhB|A|ArA|ApA\"                     },                     \"start_location\" : {                        \"lat\" : 2.4811429,                        \"lng\" : -76.5747689                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.1 km\",                        \"value\" : 147                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 29                     },                     \"end_location\" : {                        \"lat\" : 2.4596208,                        \"lng\" : -76.5934365                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eright\\u003c/b\\u003e toward \\u003cb\\u003eCl. 25 Nte.\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-right\",                     \"polyline\" : {                        \"points\" : \"mp_NtmnrMAN?B@F?BBFRNPLh@h@d@b@HL@B?HBDBDJL\"                     },                     \"start_location\" : {                        \"lat\" : 2.460389,                        \"lng\" : -76.592432                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.1 km\",                        \"value\" : 96                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 15                     },                     \"end_location\" : {                        \"lat\" : 2.46027,                        \"lng\" : -76.59399999999999                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eright\\u003c/b\\u003e onto \\u003cb\\u003eCl. 25 Nte.\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-right\",                     \"polyline\" : {                        \"points\" : \"sk_N~snrMiAv@a@ZUZ\"                     },                     \"start_location\" : {                        \"lat\" : 2.4596208,                        \"lng\" : -76.5934365                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.2 km\",                        \"value\" : 231                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 26                     },                     \"end_location\" : {                        \"lat\" : 2.4604919,                        \"lng\" : -76.59603779999999                     },                     \"html_instructions\" : \"Continue onto \\u003cb\\u003eCra. 15\\u003c/b\\u003e\",                     \"polyline\" : {                        \"points\" : \"uo_NnwnrMU`@ENCNAPAx@Ab@Ab@A~A?TAjA\"                     },                     \"start_location\" : {                        \"lat\" : 2.46027,                        \"lng\" : -76.59399999999999                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.2 km\",                        \"value\" : 243                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 59                     },                     \"end_location\" : {                        \"lat\" : 2.460143,                        \"lng\" : -76.59401249999999                     },                     \"html_instructions\" : \"Make a \\u003cb\\u003eU-turn\\u003c/b\\u003e at \\u003cb\\u003eCl. 20 Nte.\\u003c/b\\u003e\",                     \"maneuver\" : \"uturn-left\",                     \"polyline\" : {                        \"points\" : \"aq_NfdorMH?H?@kA?U@}A@eA?o@Da@BOHQV[\"                     },                     \"start_location\" : {                        \"lat\" : 2.4604919,                        \"lng\" : -76.59603779999999                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"79 m\",                        \"value\" : 79                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 21                     },                     \"end_location\" : {                        \"lat\" : 2.4596025,                        \"lng\" : -76.59355699999999                     },                     \"html_instructions\" : \"Continue onto \\u003cb\\u003eCl. 25 Nte.\\u003c/b\\u003e\\u003cdiv style=\\\"font-size:0.9em\\\"\\u003eDestination will be on the left\\u003c/div\\u003e\",                     \"polyline\" : {                        \"points\" : \"{n_NpwnrMr@m@v@k@\"                     },                     \"start_location\" : {                        \"lat\" : 2.460143,                        \"lng\" : -76.59401249999999                     },                     \"travel_mode\" : \"DRIVING\"                  }               ],               \"traffic_speed_entry\" : [],               \"via_waypoint\" : []            },            {               \"distance\" : {                  \"text\" : \"1.8 km\",                  \"value\" : 1751               },               \"duration\" : {                  \"text\" : \"8 mins\",                  \"value\" : 451               },               \"end_address\" : \"Cl. 15ne #1d-154 a 1d-238, Popayán, Cauca, Colombia\",               \"end_location\" : {                  \"lat\" : 2.4470995,                  \"lng\" : -76.59801089999999               },               \"start_address\" : \"Cl. 25 Nte. #9-44 a 9-128, Popayán, Cauca, Colombia\",               \"start_location\" : {                  \"lat\" : 2.4596025,                  \"lng\" : -76.59355699999999               },               \"steps\" : [                  {                     \"distance\" : {                        \"text\" : \"8 m\",                        \"value\" : 8                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 2                     },                     \"end_location\" : {                        \"lat\" : 2.4595465,                        \"lng\" : -76.5935116                     },                     \"html_instructions\" : \"Head \\u003cb\\u003esoutheast\\u003c/b\\u003e on \\u003cb\\u003eCl. 25 Nte.\\u003c/b\\u003e\",                     \"polyline\" : {                        \"points\" : \"ok_NvtnrMHI\"                     },                     \"start_location\" : {                        \"lat\" : 2.4596025,                        \"lng\" : -76.59355699999999                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.6 km\",                        \"value\" : 637                     },                     \"duration\" : {                        \"text\" : \"2 mins\",                        \"value\" : 136                     },                     \"end_location\" : {                        \"lat\" : 2.4555251,                        \"lng\" : -76.59739159999999                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eright\\u003c/b\\u003e onto \\u003cb\\u003eCra. 9\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-right\",                     \"polyline\" : {                        \"points\" : \"ek_NltnrMX@R?f@DNJ`A|@`Av@rAfAxAlAZVRPb@`@\\\\^r@z@r@x@^f@\\\\f@LPLP\\\\j@^j@FJDJDHBF@N\"                     },                     \"start_location\" : {                        \"lat\" : 2.4595465,                        \"lng\" : -76.5935116                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.4 km\",                        \"value\" : 410                     },                     \"duration\" : {                        \"text\" : \"2 mins\",                        \"value\" : 118                     },                     \"end_location\" : {                        \"lat\" : 2.4521843,                        \"lng\" : -76.597622                     },                     \"html_instructions\" : \"At the roundabout, take the \\u003cb\\u003e3rd\\u003c/b\\u003e exit onto \\u003cb\\u003eCl. 18 Nte.\\u003c/b\\u003e\",                     \"maneuver\" : \"roundabout-right\",                     \"polyline\" : {                        \"points\" : \"ar~MtlorM?@A@?@A@?@AB?B?B?B?@?B@B@D?B@@@BB@@@@@@@B@B?@@B?B@@?BAB?@?BAB?@ABA@A@C@ABC?A@??A?A@??APCT@~DDP?~@?r@@T?|B@r@@D?L?D?FA\"                     },                     \"start_location\" : {                        \"lat\" : 2.4555251,                        \"lng\" : -76.59739159999999                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.2 km\",                        \"value\" : 171                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 69                     },                     \"end_location\" : {                        \"lat\" : 2.4516028,                        \"lng\" : -76.5990419                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eright\\u003c/b\\u003e onto \\u003cb\\u003eCra. 6\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-right\",                     \"polyline\" : {                        \"points\" : \"c}}MbnorMDPDLBNNh@Nh@Nn@Pn@FRLXJH\"                     },                     \"start_location\" : {                        \"lat\" : 2.4521843,                        \"lng\" : -76.597622                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.5 km\",                        \"value\" : 516                     },                     \"duration\" : {                        \"text\" : \"2 mins\",                        \"value\" : 123                     },                     \"end_location\" : {                        \"lat\" : 2.4471684,                        \"lng\" : -76.5980507                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eleft\\u003c/b\\u003e onto \\u003cb\\u003eCl. 15 Nte.\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-left\",                     \"polyline\" : {                        \"points\" : \"oy}M~vorMFEJENGZMFEnA_@lA_@`Cq@|@WVGNAPAh@?fCB|B@b@@H?DAL?DAFANGDA\"                     },                     \"start_location\" : {                        \"lat\" : 2.4516028,                        \"lng\" : -76.5990419                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"9 m\",                        \"value\" : 9                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 3                     },                     \"end_location\" : {                        \"lat\" : 2.4470995,                        \"lng\" : -76.59801089999999                     },                     \"html_instructions\" : \"Continue onto \\u003cb\\u003eCl. 15ne\\u003c/b\\u003e\\u003cdiv style=\\\"font-size:0.9em\\\"\\u003eDestination will be on the left\\u003c/div\\u003e\",                     \"polyline\" : {                        \"points\" : \"y}|MxporMHEBA\"                     },                     \"start_location\" : {                        \"lat\" : 2.4471684,                        \"lng\" : -76.5980507                     },                     \"travel_mode\" : \"DRIVING\"                  }               ],               \"traffic_speed_entry\" : [],               \"via_waypoint\" : []            },            {               \"distance\" : {                  \"text\" : \"1.9 km\",                  \"value\" : 1924               },               \"duration\" : {                  \"text\" : \"8 mins\",                  \"value\" : 475               },               \"end_address\" : \"Cl. 4 #9-1 a 9-111, Popayán, Cauca, Colombia\",               \"end_location\" : {                  \"lat\" : 2.4431081,                  \"lng\" : -76.608616               },               \"start_address\" : \"Cl. 15ne #1d-154 a 1d-238, Popayán, Cauca, Colombia\",               \"start_location\" : {                  \"lat\" : 2.4470995,                  \"lng\" : -76.59801089999999               },               \"steps\" : [                  {                     \"distance\" : {                        \"text\" : \"13 m\",                        \"value\" : 13                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 5                     },                     \"end_location\" : {                        \"lat\" : 2.4472009,                        \"lng\" : -76.5980629                     },                     \"html_instructions\" : \"Head \\u003cb\\u003enorthwest\\u003c/b\\u003e on \\u003cb\\u003eCl. 15ne\\u003c/b\\u003e toward \\u003cb\\u003eCra. 2\\u003c/b\\u003e\",                     \"polyline\" : {                        \"points\" : \"k}|MpporMC@IDE@\"                     },                     \"start_location\" : {                        \"lat\" : 2.4470995,                        \"lng\" : -76.59801089999999                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.5 km\",                        \"value\" : 535                     },                     \"duration\" : {                        \"text\" : \"2 mins\",                        \"value\" : 94                     },                     \"end_location\" : {                        \"lat\" : 2.4440364,                        \"lng\" : -76.6012027                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eleft\\u003c/b\\u003e at the 1st cross street onto \\u003cb\\u003eCra. 2\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-left\",                     \"polyline\" : {                        \"points\" : \"_~|MzporMOFPp@HJ@DPh@HPLTv@nARb@JNp@bAHLb@j@`@h@HLBFFDLH|At@JFJFLDp@Rb@H`@FdAP\"                     },                     \"start_location\" : {                        \"lat\" : 2.4472009,                        \"lng\" : -76.5980629                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.4 km\",                        \"value\" : 418                     },                     \"duration\" : {                        \"text\" : \"2 mins\",                        \"value\" : 111                     },                     \"end_location\" : {                        \"lat\" : 2.4469291,                        \"lng\" : -76.6033307                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eright\\u003c/b\\u003e onto \\u003cb\\u003eCl. 1 Nte.\\u003c/b\\u003e/\\u003cb\\u003eCl. 7 Nte.\\u003c/b\\u003e\\u003cdiv style=\\\"font-size:0.9em\\\"\\u003eContinue to follow Cl. 7 Nte.\\u003c/div\\u003e\",                     \"maneuver\" : \"turn-right\",                     \"polyline\" : {                        \"points\" : \"gj|MndprM]tAKZM\\\\KTmBt@kBt@kAd@iAd@IDoAj@s@X\"                     },                     \"start_location\" : {                        \"lat\" : 2.4440364,                        \"lng\" : -76.6012027                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"7 m\",                        \"value\" : 7                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 9                     },                     \"end_location\" : {                        \"lat\" : 2.4469295,                        \"lng\" : -76.60339019999999                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eleft\\u003c/b\\u003e toward \\u003cb\\u003eCl. 4 Nte.\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-left\",                     \"polyline\" : {                        \"points\" : \"i||MxqprM?J\"                     },                     \"start_location\" : {                        \"lat\" : 2.4469291,                        \"lng\" : -76.6033307                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"74 m\",                        \"value\" : 74                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 21                     },                     \"end_location\" : {                        \"lat\" : 2.4462654,                        \"lng\" : -76.6033655                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eleft\\u003c/b\\u003e onto \\u003cb\\u003eCl. 4 Nte.\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-left\",                     \"polyline\" : {                        \"points\" : \"i||MdrprMH?xBC\"                     },                     \"start_location\" : {                        \"lat\" : 2.4469295,                        \"lng\" : -76.60339019999999                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.2 km\",                        \"value\" : 243                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 46                     },                     \"end_location\" : {                        \"lat\" : 2.444894,                        \"lng\" : -76.6047653                     },                     \"html_instructions\" : \"At the roundabout, take the \\u003cb\\u003e2nd\\u003c/b\\u003e exit onto \\u003cb\\u003eCra. 5a\\u003c/b\\u003e\",                     \"maneuver\" : \"roundabout-right\",                     \"polyline\" : {                        \"points\" : \"ex|M`rprM@F@FBF@DDFDDDBDDF@NBB?B?B?B?BAB?BABAHNDDJHjBvAn@j@BD@BBD?F?FG\\\\\"                     },                     \"start_location\" : {                        \"lat\" : 2.4462654,                        \"lng\" : -76.6033655                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.1 km\",                        \"value\" : 118                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 25                     },                     \"end_location\" : {                        \"lat\" : 2.4447928,                        \"lng\" : -76.60577979999999                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eleft\\u003c/b\\u003e onto \\u003cb\\u003eCl. 1\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-left\",                     \"polyline\" : {                        \"points\" : \"qo|MxzprMLTDFDHBLBJ@VAHALKvA\"                     },                     \"start_location\" : {                        \"lat\" : 2.444894,                        \"lng\" : -76.6047653                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.3 km\",                        \"value\" : 277                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 67                     },                     \"end_location\" : {                        \"lat\" : 2.4424335,                        \"lng\" : -76.6065763                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eleft\\u003c/b\\u003e onto \\u003cb\\u003eCra. 7\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-left\",                     \"polyline\" : {                        \"points\" : \"}n|MbaqrMpAVZFZFHBdAXnA\\\\vA\\\\tA\\\\\"                     },                     \"start_location\" : {                        \"lat\" : 2.4447928,                        \"lng\" : -76.60577979999999                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.2 km\",                        \"value\" : 239                     },                     \"duration\" : {                        \"text\" : \"2 mins\",                        \"value\" : 97                     },                     \"end_location\" : {                        \"lat\" : 2.4431081,                        \"lng\" : -76.608616                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eright\\u003c/b\\u003e onto \\u003cb\\u003eCl. 4\\u003c/b\\u003e\\u003cdiv style=\\\"font-size:0.9em\\\"\\u003eDestination will be on the right\\u003c/div\\u003e\",                     \"maneuver\" : \"turn-right\",                     \"polyline\" : {                        \"points\" : \"e`|MbfqrM]vA]vA[tA[vASx@\"                     },                     \"start_location\" : {                        \"lat\" : 2.4424335,                        \"lng\" : -76.6065763                     },                     \"travel_mode\" : \"DRIVING\"                  }               ],               \"traffic_speed_entry\" : [],               \"via_waypoint\" : []            },            {               \"distance\" : {                  \"text\" : \"3.3 km\",                  \"value\" : 3309               },               \"duration\" : {                  \"text\" : \"12 mins\",                  \"value\" : 746               },               \"end_address\" : \"Cra. 42b #4-30 a 4-72, Popayán, Cauca, Colombia\",               \"end_location\" : {                  \"lat\" : 2.4546461,                  \"lng\" : -76.6352402               },               \"start_address\" : \"Cl. 4 #9-1 a 9-111, Popayán, Cauca, Colombia\",               \"start_location\" : {                  \"lat\" : 2.4431081,                  \"lng\" : -76.608616               },               \"steps\" : [                  {                     \"distance\" : {                        \"text\" : \"0.7 km\",                        \"value\" : 725                     },                     \"duration\" : {                        \"text\" : \"3 mins\",                        \"value\" : 185                     },                     \"end_location\" : {                        \"lat\" : 2.4452665,                        \"lng\" : -76.61477699999999                     },                     \"html_instructions\" : \"Head \\u003cb\\u003ewest\\u003c/b\\u003e on \\u003cb\\u003eCl. 4\\u003c/b\\u003e toward \\u003cb\\u003eCra. 10\\u003c/b\\u003e\",                     \"polyline\" : {                        \"points\" : \"md|MzrqrMI\\\\]vAw@nDy@hDYpAYnAc@`Bc@~AQn@Qp@YdAYfAo@zBK`@EL\"                     },                     \"start_location\" : {                        \"lat\" : 2.4431081,                        \"lng\" : -76.608616                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.6 km\",                        \"value\" : 602                     },                     \"duration\" : {                        \"text\" : \"2 mins\",                        \"value\" : 119                     },                     \"end_location\" : {                        \"lat\" : 2.4475333,                        \"lng\" : -76.6196934                     },                     \"html_instructions\" : \"Keep \\u003cb\\u003eleft\\u003c/b\\u003e to stay on \\u003cb\\u003eCl. 4\\u003c/b\\u003e\",                     \"maneuver\" : \"keep-left\",                     \"polyline\" : {                        \"points\" : \"}q|MjyrrM?D?BADELAFs@pBWn@]~@]~@IPGP_@dAa@dAiAbDGPSf@}@fCWn@a@fA\"                     },                     \"start_location\" : {                        \"lat\" : 2.4452665,                        \"lng\" : -76.61477699999999                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"33 m\",                        \"value\" : 33                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 9                     },                     \"end_location\" : {                        \"lat\" : 2.447607,                        \"lng\" : -76.6199721                     },                     \"html_instructions\" : \"Keep \\u003cb\\u003eleft\\u003c/b\\u003e to stay on \\u003cb\\u003eCl. 4\\u003c/b\\u003e\",                     \"maneuver\" : \"keep-left\",                     \"polyline\" : {                        \"points\" : \"a`}M`xsrMMZAB?BA@?D?@@D?B\"                     },                     \"start_location\" : {                        \"lat\" : 2.4475333,                        \"lng\" : -76.6196934                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.1 km\",                        \"value\" : 132                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 27                     },                     \"end_location\" : {                        \"lat\" : 2.4475051,                        \"lng\" : -76.62085069999999                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eleft\\u003c/b\\u003e onto \\u003cb\\u003eCra. 23\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-left\",                     \"polyline\" : {                        \"points\" : \"q`}MxysrMK@DF@@?@B@@@@@B@@?PDLDJDBB@@?@@??@?BAFAJENELO^ELADAD?D?F\"                     },                     \"start_location\" : {                        \"lat\" : 2.447607,                        \"lng\" : -76.6199721                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"1.8 km\",                        \"value\" : 1806                     },                     \"duration\" : {                        \"text\" : \"6 mins\",                        \"value\" : 389                     },                     \"end_location\" : {                        \"lat\" : 2.4545569,                        \"lng\" : -76.63528939999999                     },                     \"html_instructions\" : \"Slight \\u003cb\\u003eright\\u003c/b\\u003e onto \\u003cb\\u003eCl. 5\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-slight-right\",                     \"polyline\" : {                        \"points\" : \"}_}Mh_trMGPu@lBWj@u@jB{@jBi@hAm@vA]p@Ud@Ub@kB~C]j@Uf@Q`@GPEJGVCVE^?PAdA?jCCb@CXIb@CFQj@EJKZUh@c@~@cAxBy@|AADUh@Uh@}AjD{AdDMVOXQ\\\\A@?@ABAF?BABAHCHGNGNKTMZA@[t@MZGRKPKZMXEFCHKTKVYh@Yh@GJGJOVMVQZQZ\"                     },                     \"start_location\" : {                        \"lat\" : 2.4475051,                        \"lng\" : -76.62085069999999                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"11 m\",                        \"value\" : 11                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 17                     },                     \"end_location\" : {                        \"lat\" : 2.4546461,                        \"lng\" : -76.6352402                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eright\\u003c/b\\u003e onto \\u003cb\\u003eCra. 42b\\u003c/b\\u003e\\u003cdiv style=\\\"font-size:0.9em\\\"\\u003eDestination will be on the right\\u003c/div\\u003e\",                     \"maneuver\" : \"turn-right\",                     \"polyline\" : {                        \"points\" : \"_l~MpyvrMCCEAGC\"                     },                     \"start_location\" : {                        \"lat\" : 2.4545569,                        \"lng\" : -76.63528939999999                     },                     \"travel_mode\" : \"DRIVING\"                  }               ],               \"traffic_speed_entry\" : [],               \"via_waypoint\" : []            },            {               \"distance\" : {                  \"text\" : \"1 m\",                  \"value\" : 0               },               \"duration\" : {                  \"text\" : \"1 min\",                  \"value\" : 0               },               \"end_address\" : \"Cra. 42b #4-30 a 4-72, Popayán, Cauca, Colombia\",               \"end_location\" : {                  \"lat\" : 2.4546461,                  \"lng\" : -76.6352402               },               \"start_address\" : \"Cra. 42b #4-30 a 4-72, Popayán, Cauca, Colombia\",               \"start_location\" : {                  \"lat\" : 2.4546461,                  \"lng\" : -76.6352402               },               \"steps\" : [                  {                     \"distance\" : {                        \"text\" : \"1 m\",                        \"value\" : 0                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 0                     },                     \"end_location\" : {                        \"lat\" : 2.4546461,                        \"lng\" : -76.6352402                     },                     \"html_instructions\" : \"Head on \\u003cb\\u003eCra. 42b\\u003c/b\\u003e\",                     \"polyline\" : {                        \"points\" : \"ql~MfyvrM\"                     },                     \"start_location\" : {                        \"lat\" : 2.4546461,                        \"lng\" : -76.6352402                     },                     \"travel_mode\" : \"DRIVING\"                  }               ],               \"traffic_speed_entry\" : [],               \"via_waypoint\" : []            },            {               \"distance\" : {                  \"text\" : \"8.4 km\",                  \"value\" : 8393               },               \"duration\" : {                  \"text\" : \"12 mins\",                  \"value\" : 723               },               \"end_address\" : \"Variante Norte, Popayán, Cauca, Colombia\",               \"end_location\" : {                  \"lat\" : 2.4876736,                  \"lng\" : -76.58635559999999               },               \"start_address\" : \"Cra. 42b #4-30 a 4-72, Popayán, Cauca, Colombia\",               \"start_location\" : {                  \"lat\" : 2.4546461,                  \"lng\" : -76.6352402               },               \"steps\" : [                  {                     \"distance\" : {                        \"text\" : \"11 m\",                        \"value\" : 11                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 9                     },                     \"end_location\" : {                        \"lat\" : 2.4545569,                        \"lng\" : -76.63528939999999                     },                     \"html_instructions\" : \"Head \\u003cb\\u003esouthwest\\u003c/b\\u003e on \\u003cb\\u003eCra. 42b\\u003c/b\\u003e toward \\u003cb\\u003eCl. 4b\\u003c/b\\u003e\",                     \"polyline\" : {                        \"points\" : \"ql~MfyvrMFBD@BB\"                     },                     \"start_location\" : {                        \"lat\" : 2.4546461,                        \"lng\" : -76.6352402                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.5 km\",                        \"value\" : 480                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 87                     },                     \"end_location\" : {                        \"lat\" : 2.4552119,                        \"lng\" : -76.6395112                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eright\\u003c/b\\u003e onto \\u003cb\\u003eCl. 5\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-right\",                     \"polyline\" : {                        \"points\" : \"_l~MpyvrMSd@Ub@CJCD?@ABCPALCPGt@i@~ECTC^AR?^CxDA~@A|@\"                     },                     \"start_location\" : {                        \"lat\" : 2.4545569,                        \"lng\" : -76.63528939999999                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"0.4 km\",                        \"value\" : 398                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 46                     },                     \"end_location\" : {                        \"lat\" : 2.4587323,                        \"lng\" : -76.63927                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eright\\u003c/b\\u003e onto \\u003cb\\u003ePiendamo - Popayan\\u003c/b\\u003e/\\u003cb\\u003eVariante Norte\\u003c/b\\u003e/\\u003cb\\u003eRoute 25\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-right\",                     \"polyline\" : {                        \"points\" : \"ap~M|swrMI?wA?kJ?_AAg@?[C_@CSCIAIGe@W\"                     },                     \"start_location\" : {                        \"lat\" : 2.4552119,                        \"lng\" : -76.6395112                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"7.5 km\",                        \"value\" : 7485                     },                     \"duration\" : {                        \"text\" : \"9 mins\",                        \"value\" : 541                     },                     \"end_location\" : {                        \"lat\" : 2.487525,                        \"lng\" : -76.58626699999999                     },                     \"html_instructions\" : \"At the roundabout, take the \\u003cb\\u003e1st\\u003c/b\\u003e exit and stay on \\u003cb\\u003ePiendamo - Popayan\\u003c/b\\u003e/\\u003cb\\u003eVariante Norte\\u003c/b\\u003e/\\u003cb\\u003eRoute 25\\u003c/b\\u003e\\u003cdiv style=\\\"font-size:0.9em\\\"\\u003eContinue to follow Variante Norte/Route 25\\u003c/div\\u003e\",                     \"maneuver\" : \"roundabout-right\",                     \"polyline\" : {                        \"points\" : \"af_NlrwrMAE?CACACACCCAACCCACACACAC?E?C?C?C?C@E@A@]Ca@CG?SM_@YSQQQY]SWm@y@mBuCgA{AcA}AgLgP{AwBgA}AgAcBw@sAoAyBiCmFiAyBiC_FoD{GOYcCuE]s@Ua@KSKUGQEMK_@EOI_@M_AmBeLuAmIKq@Ia@CIGS_A{B_@g@[]o@e@k@_@iIcDs@[aE}A{D{Ag@Se@UYOc@Ye@a@g@i@SWW_@_@w@Ws@Sy@E_@Ks@e@mEMiAS_CU}B[aCSoAYqAY}@k@iAe@u@}AeC_@k@i@{@m@aAe@{@c@aASk@CQKo@Ea@Ec@Eq@Bi@Bq@BYJy@XcCd@gDpA}InAeJz@oGLuAHsA@e@Ay@WoE[gEIiAq@aGEeBLqFP_E@s@?{BCq@Ea@Mi@Ws@e@{@g@i@}@k@{@]}Be@mDg@QEeIuA{IyAkIwAmAS\"                     },                     \"start_location\" : {                        \"lat\" : 2.4587323,                        \"lng\" : -76.63927                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"19 m\",                        \"value\" : 19                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 40                     },                     \"end_location\" : {                        \"lat\" : 2.4876736,                        \"lng\" : -76.58635559999999                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eleft\\u003c/b\\u003e\\u003cdiv style=\\\"font-size:0.9em\\\"\\u003eDestination will be on the left\\u003c/div\\u003e\",                     \"maneuver\" : \"turn-left\",                     \"polyline\" : {                        \"points\" : \"_zdNdgmrM]P\"                     },                     \"start_location\" : {                        \"lat\" : 2.487525,                        \"lng\" : -76.58626699999999                     },                     \"travel_mode\" : \"DRIVING\"                  }               ],               \"traffic_speed_entry\" : [],               \"via_waypoint\" : []            },            {               \"distance\" : {                  \"text\" : \"1.5 km\",                  \"value\" : 1543               },               \"duration\" : {                  \"text\" : \"6 mins\",                  \"value\" : 365               },               \"end_address\" : \"Cra. 9a #63 Norte-2 a 63 Norte-208, Popayán, Cauca, Colombia\",               \"end_location\" : {                  \"lat\" : 2.4816287,                  \"lng\" : -76.57456000000001               },               \"start_address\" : \"Variante Norte, Popayán, Cauca, Colombia\",               \"start_location\" : {                  \"lat\" : 2.4876736,                  \"lng\" : -76.58635559999999               },               \"steps\" : [                  {                     \"distance\" : {                        \"text\" : \"19 m\",                        \"value\" : 19                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 4                     },                     \"end_location\" : {                        \"lat\" : 2.487525,                        \"lng\" : -76.58626699999999                     },                     \"html_instructions\" : \"Head \\u003cb\\u003esoutheast\\u003c/b\\u003e toward \\u003cb\\u003eVariante Norte\\u003c/b\\u003e/\\u003cb\\u003eRoute 25\\u003c/b\\u003e\",                     \"polyline\" : {                        \"points\" : \"}zdNvgmrM\\\\Q\"                     },                     \"start_location\" : {                        \"lat\" : 2.4876736,                        \"lng\" : -76.58635559999999                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"45 m\",                        \"value\" : 45                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 30                     },                     \"end_location\" : {                        \"lat\" : 2.4871303,                        \"lng\" : -76.58637299999999                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eright\\u003c/b\\u003e onto \\u003cb\\u003eVariante Norte\\u003c/b\\u003e/\\u003cb\\u003eRoute 25\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-right\",                     \"polyline\" : {                        \"points\" : \"_zdNdgmrMlAR\"                     },                     \"start_location\" : {                        \"lat\" : 2.487525,                        \"lng\" : -76.58626699999999                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"1.4 km\",                        \"value\" : 1409                     },                     \"duration\" : {                        \"text\" : \"5 mins\",                        \"value\" : 297                     },                     \"end_location\" : {                        \"lat\" : 2.4816743,                        \"lng\" : -76.574929                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eleft\\u003c/b\\u003e at the 1st cross street onto \\u003cb\\u003eTv 9A Norte\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-left\",                     \"polyline\" : {                        \"points\" : \"qwdNxgmrMzAwEvAgEj@_BBEL[N]N]N]@EBIHUL]La@Na@rAeD`@cAHQ~@}Bl@{AZ{@Zy@N_@DMFQTk@Ri@Vs@BI\\\\}@Vk@Vi@N]N]b@sAd@qANa@Pa@`@eAb@gA\\\\aA\\\\aA\"                     },                     \"start_location\" : {                        \"lat\" : 2.4871303,                        \"lng\" : -76.58637299999999                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"59 m\",                        \"value\" : 59                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 21                     },                     \"end_location\" : {                        \"lat\" : 2.4816388,                        \"lng\" : -76.5746563                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eleft\\u003c/b\\u003e onto \\u003cb\\u003eCl. 63 Nte.\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-left\",                     \"polyline\" : {                        \"points\" : \"mucNh`krMn@a@KGKGQC\"                     },                     \"start_location\" : {                        \"lat\" : 2.4816743,                        \"lng\" : -76.574929                     },                     \"travel_mode\" : \"DRIVING\"                  },                  {                     \"distance\" : {                        \"text\" : \"11 m\",                        \"value\" : 11                     },                     \"duration\" : {                        \"text\" : \"1 min\",                        \"value\" : 13                     },                     \"end_location\" : {                        \"lat\" : 2.4816287,                        \"lng\" : -76.57456000000001                     },                     \"html_instructions\" : \"Turn \\u003cb\\u003eright\\u003c/b\\u003e onto \\u003cb\\u003eCra. 9a\\u003c/b\\u003e\",                     \"maneuver\" : \"turn-right\",                     \"polyline\" : {                        \"points\" : \"gucNr~jrM@S\"                     },                     \"start_location\" : {                        \"lat\" : 2.4816388,                        \"lng\" : -76.5746563                     },                     \"travel_mode\" : \"DRIVING\"                  }               ],               \"traffic_speed_entry\" : [],               \"via_waypoint\" : []            }         ],         \"overview_polyline\" : {            \"points\" : \"eucN~|jrM?^ARPBVNx@@h@ZvAl@zAr@~CzA~DlBx@f@nBhBxAxA`AdBdCtFx@vAj@f@vAp@dBNpFNh@Bz@Nv@Zj@^lBnBfG~GvC~CpEpFtBzBlCbDzDjDlAbAz@n@fAdAvAnAp@h@|BtBxBjBzKnJzDdDAR@JVVz@v@n@p@HXJLiAv@a@ZUZ[p@E`@G`FA`BR?DeGDqALa@V[r@m@`Au@l@@f@DNJbCtBlDtCn@h@`A`AfBtB|@nAxAzBVh@?RAB?ZDNHFLBL?JCHIFIPEtEFzC@dEBLAJ^r@rCXbAXb@~@a@vAe@nEqAtA_@`@CrIFb@Cf@QBAC@OFOFPp@JPZz@dAdB^r@z@pArAjBTNhB|@XLtA\\\\fBXi@pBYr@yEjBoF|Bs@X?JH?xBC@FDNRVLFRBJ?NENTvB`Br@p@DH?NG\\\\LTJPFX?`@MdBrCj@bIrBsB|IsB~IsAzF}@pDaBfG{ArFG\\\\kBhFwElMeCzGCN@F?BK@FHBBHDn@TBDIf@]`AAJ?FGPmAxCqBvEkCxFaCbEs@rAYr@Mb@Iv@AvACnDM|@g@zAy@hB}BvEkCdGkCtFMj@}AxDk@nAu@`By@xA_@r@QZCCMELDBBSd@Yn@I\\\\w@tHIhBExFA|@I?cM?gBAyAMo@_@AEEOMKOEQ?IB_@Ai@Cs@g@e@c@m@u@gHiKcO_ToCaEgCmEsEgJmMkVkA_C_@oA{EsYa@qB_A{B_@g@kAcAk@_@iIcDuFyBcFoB_Ae@iA{@{@aAw@wAWs@Sy@QsAs@wGi@}Fo@qEYqAY}@qA_CuEoHe@{@c@aAW}@QqAKuAF{ANsA~@kH`DcUz@oGLuAJyBAy@WoEe@qGq@aGEeBLqFP_E@oDCq@Ea@e@}Ae@{@g@i@}@k@{@]}Be@mDg@wI{AgTqDmAS]P\\\\QlARrD_Ln@eB|@uB\\\\cAfHuQ~BmG|AqDhBeFtBqF\\\\aAn@a@WOQC@S\"         },         \"summary\" : \"Cra. 9\",         \"warnings\" : [],         \"waypoint_order\" : [ 0, 1, 2, 3, 4, 5 ]      }   ],   \"status\" : \"OK\"}",
+  "message" : [ [ {
+    "lat" : "2.48163",
+    "lng" : "-76.5744"
+  }, {
+    "lat" : "2.48162",
+    "lng" : "-76.57444"
+  }, {
+    "lat" : "2.48163",
+    "lng" : "-76.57456"
+  }, {
+    "lat" : "2.48164",
+    "lng" : "-76.57466"
+  }, {
+    "lat" : "2.48164",
+    "lng" : "-76.57466"
+  }, {
+    "lat" : "2.48155",
+    "lng" : "-76.57468"
+  }, {
+    "lat" : "2.48149",
+    "lng" : "-76.57472"
+  }, {
+    "lat" : "2.48143",
+    "lng" : "-76.57476"
+  }, {
+    "lat" : "2.48128",
+    "lng" : "-76.57476"
+  }, {
+    "lat" : "2.48114",
+    "lng" : "-76.57477"
+  }, {
+    "lat" : "2.48114",
+    "lng" : "-76.57477"
+  }, {
+    "lat" : "2.48102",
+    "lng" : "-76.57487"
+  }, {
+    "lat" : "2.48093",
+    "lng" : "-76.57491"
+  }, {
+    "lat" : "2.4807",
+    "lng" : "-76.57503"
+  }, {
+    "lat" : "2.48049",
+    "lng" : "-76.57514"
+  }, {
+    "lat" : "2.48028",
+    "lng" : "-76.57524"
+  }, {
+    "lat" : "2.48003",
+    "lng" : "-76.5754"
+  }, {
+    "lat" : "2.47978",
+    "lng" : "-76.57555"
+  }, {
+    "lat" : "2.47923",
+    "lng" : "-76.57586"
+  }, {
+    "lat" : "2.47868",
+    "lng" : "-76.57618"
+  }, {
+    "lat" : "2.47862",
+    "lng" : "-76.57621"
+  }, {
+    "lat" : "2.47843",
+    "lng" : "-76.57631"
+  }, {
+    "lat" : "2.47827",
+    "lng" : "-76.57641"
+  }, {
+    "lat" : "2.47813",
+    "lng" : "-76.5765"
+  }, {
+    "lat" : "2.47798",
+    "lng" : "-76.57661"
+  }, {
+    "lat" : "2.47785",
+    "lng" : "-76.57672"
+  }, {
+    "lat" : "2.47742",
+    "lng" : "-76.57714"
+  }, {
+    "lat" : "2.4772",
+    "lng" : "-76.57737"
+  }, {
+    "lat" : "2.47697",
+    "lng" : "-76.57759"
+  }, {
+    "lat" : "2.47689",
+    "lng" : "-76.5777"
+  }, {
+    "lat" : "2.47664",
+    "lng" : "-76.5781"
+  }, {
+    "lat" : "2.47607",
+    "lng" : "-76.57912"
+  }, {
+    "lat" : "2.47597",
+    "lng" : "-76.57933"
+  }, {
+    "lat" : "2.47577",
+    "lng" : "-76.57965"
+  }, {
+    "lat" : "2.47568",
+    "lng" : "-76.57977"
+  }, {
+    "lat" : "2.47558",
+    "lng" : "-76.57988"
+  }, {
+    "lat" : "2.47546",
+    "lng" : "-76.57997"
+  }, {
+    "lat" : "2.47528",
+    "lng" : "-76.58008"
+  }, {
+    "lat" : "2.47502",
+    "lng" : "-76.58022"
+  }, {
+    "lat" : "2.47488",
+    "lng" : "-76.58026"
+  }, {
+    "lat" : "2.47451",
+    "lng" : "-76.5803"
+  }, {
+    "lat" : "2.47381",
+    "lng" : "-76.58036"
+  }, {
+    "lat" : "2.4733",
+    "lng" : "-76.58038"
+  }, {
+    "lat" : "2.47311",
+    "lng" : "-76.5804"
+  }, {
+    "lat" : "2.47309",
+    "lng" : "-76.5804"
+  }, {
+    "lat" : "2.47298",
+    "lng" : "-76.58042"
+  }, {
+    "lat" : "2.47279",
+    "lng" : "-76.58048"
+  }, {
+    "lat" : "2.47262",
+    "lng" : "-76.58055"
+  }, {
+    "lat" : "2.47251",
+    "lng" : "-76.58062"
+  }, {
+    "lat" : "2.47248",
+    "lng" : "-76.58063"
+  }, {
+    "lat" : "2.47229",
+    "lng" : "-76.58078"
+  }, {
+    "lat" : "2.47174",
+    "lng" : "-76.58134"
+  }, {
+    "lat" : "2.47042",
+    "lng" : "-76.58278"
+  }, {
+    "lat" : "2.47004",
+    "lng" : "-76.58318"
+  }, {
+    "lat" : "2.46966",
+    "lng" : "-76.58358"
+  }, {
+    "lat" : "2.46931",
+    "lng" : "-76.58398"
+  }, {
+    "lat" : "2.46896",
+    "lng" : "-76.58437"
+  }, {
+    "lat" : "2.46878",
+    "lng" : "-76.58458"
+  }, {
+    "lat" : "2.46861",
+    "lng" : "-76.58479"
+  }, {
+    "lat" : "2.46831",
+    "lng" : "-76.5851"
+  }, {
+    "lat" : "2.46802",
+    "lng" : "-76.58541"
+  }, {
+    "lat" : "2.46766",
+    "lng" : "-76.58582"
+  }, {
+    "lat" : "2.46731",
+    "lng" : "-76.58623"
+  }, {
+    "lat" : "2.4669",
+    "lng" : "-76.5866"
+  }, {
+    "lat" : "2.4665",
+    "lng" : "-76.58697"
+  }, {
+    "lat" : "2.46639",
+    "lng" : "-76.58708"
+  }, {
+    "lat" : "2.46637",
+    "lng" : "-76.58709"
+  }, {
+    "lat" : "2.46627",
+    "lng" : "-76.58718"
+  }, {
+    "lat" : "2.46598",
+    "lng" : "-76.58743"
+  }, {
+    "lat" : "2.46568",
+    "lng" : "-76.58767"
+  }, {
+    "lat" : "2.46532",
+    "lng" : "-76.58802"
+  }, {
+    "lat" : "2.46528",
+    "lng" : "-76.58804"
+  }, {
+    "lat" : "2.46488",
+    "lng" : "-76.58842"
+  }, {
+    "lat" : "2.46476",
+    "lng" : "-76.58852"
+  }, {
+    "lat" : "2.46463",
+    "lng" : "-76.58863"
+  }, {
+    "lat" : "2.46454",
+    "lng" : "-76.58871"
+  }, {
+    "lat" : "2.46446",
+    "lng" : "-76.58879"
+  }, {
+    "lat" : "2.46423",
+    "lng" : "-76.589"
+  }, {
+    "lat" : "2.464",
+    "lng" : "-76.58922"
+  }, {
+    "lat" : "2.46385",
+    "lng" : "-76.58936"
+  }, {
+    "lat" : "2.4637",
+    "lng" : "-76.5895"
+  }, {
+    "lat" : "2.46354",
+    "lng" : "-76.58963"
+  }, {
+    "lat" : "2.46339",
+    "lng" : "-76.58976"
+  }, {
+    "lat" : "2.46289",
+    "lng" : "-76.59021"
+  }, {
+    "lat" : "2.4624",
+    "lng" : "-76.59066"
+  }, {
+    "lat" : "2.46186",
+    "lng" : "-76.59113"
+  }, {
+    "lat" : "2.46133",
+    "lng" : "-76.5916"
+  }, {
+    "lat" : "2.46086",
+    "lng" : "-76.59202"
+  }, {
+    "lat" : "2.46039",
+    "lng" : "-76.59243"
+  }, {
+    "lat" : "2.46039",
+    "lng" : "-76.59243"
+  }, {
+    "lat" : "2.4604",
+    "lng" : "-76.59251"
+  }, {
+    "lat" : "2.4604",
+    "lng" : "-76.59253"
+  }, {
+    "lat" : "2.46039",
+    "lng" : "-76.59257"
+  }, {
+    "lat" : "2.46039",
+    "lng" : "-76.59259"
+  }, {
+    "lat" : "2.46037",
+    "lng" : "-76.59263"
+  }, {
+    "lat" : "2.46027",
+    "lng" : "-76.59271"
+  }, {
+    "lat" : "2.46018",
+    "lng" : "-76.59278"
+  }, {
+    "lat" : "2.45997",
+    "lng" : "-76.59299"
+  }, {
+    "lat" : "2.45978",
+    "lng" : "-76.59317"
+  }, {
+    "lat" : "2.45973",
+    "lng" : "-76.59324"
+  }, {
+    "lat" : "2.45972",
+    "lng" : "-76.59326"
+  }, {
+    "lat" : "2.45972",
+    "lng" : "-76.59331"
+  }, {
+    "lat" : "2.4597",
+    "lng" : "-76.59334"
+  }, {
+    "lat" : "2.45968",
+    "lng" : "-76.59337"
+  }, {
+    "lat" : "2.45962",
+    "lng" : "-76.59344"
+  }, {
+    "lat" : "2.45962",
+    "lng" : "-76.59344"
+  }, {
+    "lat" : "2.45999",
+    "lng" : "-76.59372"
+  }, {
+    "lat" : "2.46016",
+    "lng" : "-76.59386"
+  }, {
+    "lat" : "2.46027",
+    "lng" : "-76.594"
+  }, {
+    "lat" : "2.46027",
+    "lng" : "-76.594"
+  }, {
+    "lat" : "2.46038",
+    "lng" : "-76.59417"
+  }, {
+    "lat" : "2.46041",
+    "lng" : "-76.59425"
+  }, {
+    "lat" : "2.46043",
+    "lng" : "-76.59433"
+  }, {
+    "lat" : "2.46044",
+    "lng" : "-76.59442"
+  }, {
+    "lat" : "2.46045",
+    "lng" : "-76.59471"
+  }, {
+    "lat" : "2.46046",
+    "lng" : "-76.59489"
+  }, {
+    "lat" : "2.46047",
+    "lng" : "-76.59507"
+  }, {
+    "lat" : "2.46048",
+    "lng" : "-76.59555"
+  }, {
+    "lat" : "2.46048",
+    "lng" : "-76.59566"
+  }, {
+    "lat" : "2.46049",
+    "lng" : "-76.59604"
+  }, {
+    "lat" : "2.46049",
+    "lng" : "-76.59604"
+  }, {
+    "lat" : "2.46044",
+    "lng" : "-76.59604"
+  }, {
+    "lat" : "2.46039",
+    "lng" : "-76.59604"
+  }, {
+    "lat" : "2.46038",
+    "lng" : "-76.59566"
+  }, {
+    "lat" : "2.46038",
+    "lng" : "-76.59555"
+  }, {
+    "lat" : "2.46037",
+    "lng" : "-76.59508"
+  }, {
+    "lat" : "2.46036",
+    "lng" : "-76.59473"
+  }, {
+    "lat" : "2.46036",
+    "lng" : "-76.59449"
+  }, {
+    "lat" : "2.46033",
+    "lng" : "-76.59432"
+  }, {
+    "lat" : "2.46031",
+    "lng" : "-76.59424"
+  }, {
+    "lat" : "2.46026",
+    "lng" : "-76.59415"
+  }, {
+    "lat" : "2.46014",
+    "lng" : "-76.59401"
+  }, {
+    "lat" : "2.46014",
+    "lng" : "-76.59401"
+  }, {
+    "lat" : "2.45988",
+    "lng" : "-76.59378"
+  }, {
+    "lat" : "2.4596",
+    "lng" : "-76.59356"
+  }, {
+    "lat" : "2.4596",
+    "lng" : "-76.59356"
+  }, {
+    "lat" : "2.45955",
+    "lng" : "-76.59351"
+  }, {
+    "lat" : "2.45955",
+    "lng" : "-76.59351"
+  }, {
+    "lat" : "2.45942",
+    "lng" : "-76.59352"
+  }, {
+    "lat" : "2.45932",
+    "lng" : "-76.59352"
+  }, {
+    "lat" : "2.45912",
+    "lng" : "-76.59355"
+  }, {
+    "lat" : "2.45904",
+    "lng" : "-76.59361"
+  }, {
+    "lat" : "2.45871",
+    "lng" : "-76.59392"
+  }, {
+    "lat" : "2.45838",
+    "lng" : "-76.5942"
+  }, {
+    "lat" : "2.45796",
+    "lng" : "-76.59456"
+  }, {
+    "lat" : "2.45751",
+    "lng" : "-76.59495"
+  }, {
+    "lat" : "2.45737",
+    "lng" : "-76.59507"
+  }, {
+    "lat" : "2.45727",
+    "lng" : "-76.59516"
+  }, {
+    "lat" : "2.45709",
+    "lng" : "-76.59533"
+  }, {
+    "lat" : "2.45694",
+    "lng" : "-76.59549"
+  }, {
+    "lat" : "2.45668",
+    "lng" : "-76.59579"
+  }, {
+    "lat" : "2.45642",
+    "lng" : "-76.59608"
+  }, {
+    "lat" : "2.45626",
+    "lng" : "-76.59628"
+  }, {
+    "lat" : "2.45611",
+    "lng" : "-76.59648"
+  }, {
+    "lat" : "2.45604",
+    "lng" : "-76.59657"
+  }, {
+    "lat" : "2.45597",
+    "lng" : "-76.59666"
+  }, {
+    "lat" : "2.45582",
+    "lng" : "-76.59688"
+  }, {
+    "lat" : "2.45566",
+    "lng" : "-76.5971"
+  }, {
+    "lat" : "2.45562",
+    "lng" : "-76.59716"
+  }, {
+    "lat" : "2.45559",
+    "lng" : "-76.59722"
+  }, {
+    "lat" : "2.45556",
+    "lng" : "-76.59727"
+  }, {
+    "lat" : "2.45554",
+    "lng" : "-76.59731"
+  }, {
+    "lat" : "2.45553",
+    "lng" : "-76.59739"
+  }, {
+    "lat" : "2.45553",
+    "lng" : "-76.59739"
+  }, {
+    "lat" : "2.45553",
+    "lng" : "-76.5974"
+  }, {
+    "lat" : "2.45554",
+    "lng" : "-76.59741"
+  }, {
+    "lat" : "2.45554",
+    "lng" : "-76.59742"
+  }, {
+    "lat" : "2.45555",
+    "lng" : "-76.59743"
+  }, {
+    "lat" : "2.45555",
+    "lng" : "-76.59744"
+  }, {
+    "lat" : "2.45556",
+    "lng" : "-76.59746"
+  }, {
+    "lat" : "2.45556",
+    "lng" : "-76.59748"
+  }, {
+    "lat" : "2.45556",
+    "lng" : "-76.5975"
+  }, {
+    "lat" : "2.45556",
+    "lng" : "-76.59752"
+  }, {
+    "lat" : "2.45556",
+    "lng" : "-76.59753"
+  }, {
+    "lat" : "2.45556",
+    "lng" : "-76.59755"
+  }, {
+    "lat" : "2.45555",
+    "lng" : "-76.59757"
+  }, {
+    "lat" : "2.45554",
+    "lng" : "-76.5976"
+  }, {
+    "lat" : "2.45554",
+    "lng" : "-76.59762"
+  }, {
+    "lat" : "2.45553",
+    "lng" : "-76.59763"
+  }, {
+    "lat" : "2.45552",
+    "lng" : "-76.59765"
+  }, {
+    "lat" : "2.4555",
+    "lng" : "-76.59766"
+  }, {
+    "lat" : "2.45549",
+    "lng" : "-76.59767"
+  }, {
+    "lat" : "2.45548",
+    "lng" : "-76.59768"
+  }, {
+    "lat" : "2.45547",
+    "lng" : "-76.59769"
+  }, {
+    "lat" : "2.45545",
+    "lng" : "-76.5977"
+  }, {
+    "lat" : "2.45543",
+    "lng" : "-76.5977"
+  }, {
+    "lat" : "2.45542",
+    "lng" : "-76.59771"
+  }, {
+    "lat" : "2.4554",
+    "lng" : "-76.59771"
+  }, {
+    "lat" : "2.45538",
+    "lng" : "-76.59772"
+  }, {
+    "lat" : "2.45537",
+    "lng" : "-76.59772"
+  }, {
+    "lat" : "2.45535",
+    "lng" : "-76.59771"
+  }, {
+    "lat" : "2.45533",
+    "lng" : "-76.59771"
+  }, {
+    "lat" : "2.45532",
+    "lng" : "-76.59771"
+  }, {
+    "lat" : "2.4553",
+    "lng" : "-76.5977"
+  }, {
+    "lat" : "2.45528",
+    "lng" : "-76.5977"
+  }, {
+    "lat" : "2.45527",
+    "lng" : "-76.59769"
+  }, {
+    "lat" : "2.45525",
+    "lng" : "-76.59768"
+  }, {
+    "lat" : "2.45524",
+    "lng" : "-76.59767"
+  }, {
+    "lat" : "2.45523",
+    "lng" : "-76.59765"
+  }, {
+    "lat" : "2.45522",
+    "lng" : "-76.59764"
+  }, {
+    "lat" : "2.4552",
+    "lng" : "-76.59762"
+  }, {
+    "lat" : "2.4552",
+    "lng" : "-76.59761"
+  }, {
+    "lat" : "2.45519",
+    "lng" : "-76.59761"
+  }, {
+    "lat" : "2.45519",
+    "lng" : "-76.5976"
+  }, {
+    "lat" : "2.45519",
+    "lng" : "-76.59759"
+  }, {
+    "lat" : "2.45518",
+    "lng" : "-76.59759"
+  }, {
+    "lat" : "2.45518",
+    "lng" : "-76.59758"
+  }, {
+    "lat" : "2.45509",
+    "lng" : "-76.59756"
+  }, {
+    "lat" : "2.45498",
+    "lng" : "-76.59757"
+  }, {
+    "lat" : "2.45402",
+    "lng" : "-76.5976"
+  }, {
+    "lat" : "2.45393",
+    "lng" : "-76.5976"
+  }, {
+    "lat" : "2.45361",
+    "lng" : "-76.5976"
+  }, {
+    "lat" : "2.45335",
+    "lng" : "-76.59761"
+  }, {
+    "lat" : "2.45324",
+    "lng" : "-76.59761"
+  }, {
+    "lat" : "2.45261",
+    "lng" : "-76.59762"
+  }, {
+    "lat" : "2.45235",
+    "lng" : "-76.59763"
+  }, {
+    "lat" : "2.45232",
+    "lng" : "-76.59763"
+  }, {
+    "lat" : "2.45225",
+    "lng" : "-76.59763"
+  }, {
+    "lat" : "2.45222",
+    "lng" : "-76.59763"
+  }, {
+    "lat" : "2.45218",
+    "lng" : "-76.59762"
+  }, {
+    "lat" : "2.45218",
+    "lng" : "-76.59762"
+  }, {
+    "lat" : "2.45215",
+    "lng" : "-76.59771"
+  }, {
+    "lat" : "2.45212",
+    "lng" : "-76.59778"
+  }, {
+    "lat" : "2.4521",
+    "lng" : "-76.59786"
+  }, {
+    "lat" : "2.45202",
+    "lng" : "-76.59807"
+  }, {
+    "lat" : "2.45194",
+    "lng" : "-76.59828"
+  }, {
+    "lat" : "2.45186",
+    "lng" : "-76.59852"
+  }, {
+    "lat" : "2.45177",
+    "lng" : "-76.59876"
+  }, {
+    "lat" : "2.45173",
+    "lng" : "-76.59886"
+  }, {
+    "lat" : "2.45166",
+    "lng" : "-76.59899"
+  }, {
+    "lat" : "2.4516",
+    "lng" : "-76.59904"
+  }, {
+    "lat" : "2.4516",
+    "lng" : "-76.59904"
+  }, {
+    "lat" : "2.45156",
+    "lng" : "-76.59901"
+  }, {
+    "lat" : "2.4515",
+    "lng" : "-76.59898"
+  }, {
+    "lat" : "2.45142",
+    "lng" : "-76.59894"
+  }, {
+    "lat" : "2.45128",
+    "lng" : "-76.59887"
+  }, {
+    "lat" : "2.45124",
+    "lng" : "-76.59884"
+  }, {
+    "lat" : "2.45084",
+    "lng" : "-76.59868"
+  }, {
+    "lat" : "2.45045",
+    "lng" : "-76.59852"
+  }, {
+    "lat" : "2.4498",
+    "lng" : "-76.59827"
+  }, {
+    "lat" : "2.44949",
+    "lng" : "-76.59815"
+  }, {
+    "lat" : "2.44937",
+    "lng" : "-76.59811"
+  }, {
+    "lat" : "2.44929",
+    "lng" : "-76.5981"
+  }, {
+    "lat" : "2.4492",
+    "lng" : "-76.59809"
+  }, {
+    "lat" : "2.44899",
+    "lng" : "-76.59809"
+  }, {
+    "lat" : "2.44831",
+    "lng" : "-76.59811"
+  }, {
+    "lat" : "2.44768",
+    "lng" : "-76.59812"
+  }, {
+    "lat" : "2.4475",
+    "lng" : "-76.59813"
+  }, {
+    "lat" : "2.44745",
+    "lng" : "-76.59813"
+  }, {
+    "lat" : "2.44742",
+    "lng" : "-76.59812"
+  }, {
+    "lat" : "2.44735",
+    "lng" : "-76.59812"
+  }, {
+    "lat" : "2.44732",
+    "lng" : "-76.59811"
+  }, {
+    "lat" : "2.44728",
+    "lng" : "-76.5981"
+  }, {
+    "lat" : "2.4472",
+    "lng" : "-76.59806"
+  }, {
+    "lat" : "2.44717",
+    "lng" : "-76.59805"
+  }, {
+    "lat" : "2.44717",
+    "lng" : "-76.59805"
+  }, {
+    "lat" : "2.44712",
+    "lng" : "-76.59802"
+  }, {
+    "lat" : "2.4471",
+    "lng" : "-76.59801"
+  }, {
+    "lat" : "2.4471",
+    "lng" : "-76.59801"
+  }, {
+    "lat" : "2.44712",
+    "lng" : "-76.59802"
+  }, {
+    "lat" : "2.44717",
+    "lng" : "-76.59805"
+  }, {
+    "lat" : "2.4472",
+    "lng" : "-76.59806"
+  }, {
+    "lat" : "2.4472",
+    "lng" : "-76.59806"
+  }, {
+    "lat" : "2.44728",
+    "lng" : "-76.5981"
+  }, {
+    "lat" : "2.44719",
+    "lng" : "-76.59835"
+  }, {
+    "lat" : "2.44714",
+    "lng" : "-76.59841"
+  }, {
+    "lat" : "2.44713",
+    "lng" : "-76.59844"
+  }, {
+    "lat" : "2.44704",
+    "lng" : "-76.59865"
+  }, {
+    "lat" : "2.44699",
+    "lng" : "-76.59874"
+  }, {
+    "lat" : "2.44692",
+    "lng" : "-76.59885"
+  }, {
+    "lat" : "2.44664",
+    "lng" : "-76.59925"
+  }, {
+    "lat" : "2.44654",
+    "lng" : "-76.59943"
+  }, {
+    "lat" : "2.44648",
+    "lng" : "-76.59951"
+  }, {
+    "lat" : "2.44623",
+    "lng" : "-76.59985"
+  }, {
+    "lat" : "2.44618",
+    "lng" : "-76.59992"
+  }, {
+    "lat" : "2.446",
+    "lng" : "-76.60014"
+  }, {
+    "lat" : "2.44583",
+    "lng" : "-76.60035"
+  }, {
+    "lat" : "2.44578",
+    "lng" : "-76.60042"
+  }, {
+    "lat" : "2.44576",
+    "lng" : "-76.60046"
+  }, {
+    "lat" : "2.44572",
+    "lng" : "-76.60049"
+  }, {
+    "lat" : "2.44565",
+    "lng" : "-76.60054"
+  }, {
+    "lat" : "2.44518",
+    "lng" : "-76.60081"
+  }, {
+    "lat" : "2.44512",
+    "lng" : "-76.60085"
+  }, {
+    "lat" : "2.44506",
+    "lng" : "-76.60089"
+  }, {
+    "lat" : "2.44499",
+    "lng" : "-76.60092"
+  }, {
+    "lat" : "2.44474",
+    "lng" : "-76.60102"
+  }, {
+    "lat" : "2.44456",
+    "lng" : "-76.60107"
+  }, {
+    "lat" : "2.44439",
+    "lng" : "-76.60111"
+  }, {
+    "lat" : "2.44404",
+    "lng" : "-76.6012"
+  }, {
+    "lat" : "2.44404",
+    "lng" : "-76.6012"
+  }, {
+    "lat" : "2.44419",
+    "lng" : "-76.60163"
+  }, {
+    "lat" : "2.44425",
+    "lng" : "-76.60177"
+  }, {
+    "lat" : "2.44432",
+    "lng" : "-76.60192"
+  }, {
+    "lat" : "2.44438",
+    "lng" : "-76.60203"
+  }, {
+    "lat" : "2.44493",
+    "lng" : "-76.6023"
+  }, {
+    "lat" : "2.44547",
+    "lng" : "-76.60257"
+  }, {
+    "lat" : "2.44585",
+    "lng" : "-76.60276"
+  }, {
+    "lat" : "2.44622",
+    "lng" : "-76.60295"
+  }, {
+    "lat" : "2.44627",
+    "lng" : "-76.60298"
+  }, {
+    "lat" : "2.44667",
+    "lng" : "-76.6032"
+  }, {
+    "lat" : "2.44693",
+    "lng" : "-76.60333"
+  }, {
+    "lat" : "2.44693",
+    "lng" : "-76.60333"
+  }, {
+    "lat" : "2.44693",
+    "lng" : "-76.60339"
+  }, {
+    "lat" : "2.44693",
+    "lng" : "-76.60339"
+  }, {
+    "lat" : "2.44688",
+    "lng" : "-76.60339"
+  }, {
+    "lat" : "2.44627",
+    "lng" : "-76.60337"
+  }, {
+    "lat" : "2.44627",
+    "lng" : "-76.60337"
+  }, {
+    "lat" : "2.44626",
+    "lng" : "-76.60341"
+  }, {
+    "lat" : "2.44625",
+    "lng" : "-76.60345"
+  }, {
+    "lat" : "2.44623",
+    "lng" : "-76.60349"
+  }, {
+    "lat" : "2.44622",
+    "lng" : "-76.60352"
+  }, {
+    "lat" : "2.44619",
+    "lng" : "-76.60356"
+  }, {
+    "lat" : "2.44616",
+    "lng" : "-76.60359"
+  }, {
+    "lat" : "2.44613",
+    "lng" : "-76.60361"
+  }, {
+    "lat" : "2.4461",
+    "lng" : "-76.60364"
+  }, {
+    "lat" : "2.44606",
+    "lng" : "-76.60365"
+  }, {
+    "lat" : "2.44598",
+    "lng" : "-76.60367"
+  }, {
+    "lat" : "2.44596",
+    "lng" : "-76.60367"
+  }, {
+    "lat" : "2.44594",
+    "lng" : "-76.60367"
+  }, {
+    "lat" : "2.44592",
+    "lng" : "-76.60367"
+  }, {
+    "lat" : "2.4459",
+    "lng" : "-76.60367"
+  }, {
+    "lat" : "2.44588",
+    "lng" : "-76.60366"
+  }, {
+    "lat" : "2.44586",
+    "lng" : "-76.60366"
+  }, {
+    "lat" : "2.44584",
+    "lng" : "-76.60365"
+  }, {
+    "lat" : "2.44582",
+    "lng" : "-76.60364"
+  }, {
+    "lat" : "2.44577",
+    "lng" : "-76.60372"
+  }, {
+    "lat" : "2.44574",
+    "lng" : "-76.60375"
+  }, {
+    "lat" : "2.44568",
+    "lng" : "-76.6038"
+  }, {
+    "lat" : "2.44514",
+    "lng" : "-76.60424"
+  }, {
+    "lat" : "2.4449",
+    "lng" : "-76.60446"
+  }, {
+    "lat" : "2.44488",
+    "lng" : "-76.60449"
+  }, {
+    "lat" : "2.44487",
+    "lng" : "-76.60451"
+  }, {
+    "lat" : "2.44485",
+    "lng" : "-76.60454"
+  }, {
+    "lat" : "2.44485",
+    "lng" : "-76.60458"
+  }, {
+    "lat" : "2.44485",
+    "lng" : "-76.60462"
+  }, {
+    "lat" : "2.44489",
+    "lng" : "-76.60477"
+  }, {
+    "lat" : "2.44489",
+    "lng" : "-76.60477"
+  }, {
+    "lat" : "2.44482",
+    "lng" : "-76.60488"
+  }, {
+    "lat" : "2.44479",
+    "lng" : "-76.60492"
+  }, {
+    "lat" : "2.44476",
+    "lng" : "-76.60497"
+  }, {
+    "lat" : "2.44474",
+    "lng" : "-76.60504"
+  }, {
+    "lat" : "2.44472",
+    "lng" : "-76.6051"
+  }, {
+    "lat" : "2.44471",
+    "lng" : "-76.60522"
+  }, {
+    "lat" : "2.44472",
+    "lng" : "-76.60527"
+  }, {
+    "lat" : "2.44473",
+    "lng" : "-76.60534"
+  }, {
+    "lat" : "2.44479",
+    "lng" : "-76.60578"
+  }, {
+    "lat" : "2.44479",
+    "lng" : "-76.60578"
+  }, {
+    "lat" : "2.44438",
+    "lng" : "-76.6059"
+  }, {
+    "lat" : "2.44424",
+    "lng" : "-76.60594"
+  }, {
+    "lat" : "2.4441",
+    "lng" : "-76.60598"
+  }, {
+    "lat" : "2.44405",
+    "lng" : "-76.606"
+  }, {
+    "lat" : "2.4437",
+    "lng" : "-76.60613"
+  }, {
+    "lat" : "2.4433",
+    "lng" : "-76.60628"
+  }, {
+    "lat" : "2.44286",
+    "lng" : "-76.60643"
+  }, {
+    "lat" : "2.44243",
+    "lng" : "-76.60658"
+  }, {
+    "lat" : "2.44243",
+    "lng" : "-76.60658"
+  }, {
+    "lat" : "2.44258",
+    "lng" : "-76.60702"
+  }, {
+    "lat" : "2.44273",
+    "lng" : "-76.60746"
+  }, {
+    "lat" : "2.44287",
+    "lng" : "-76.60789"
+  }, {
+    "lat" : "2.44301",
+    "lng" : "-76.60833"
+  }, {
+    "lat" : "2.44311",
+    "lng" : "-76.60862"
+  }, {
+    "lat" : "2.44311",
+    "lng" : "-76.60862"
+  }, {
+    "lat" : "2.44316",
+    "lng" : "-76.60877"
+  }, {
+    "lat" : "2.44331",
+    "lng" : "-76.60921"
+  }, {
+    "lat" : "2.44359",
+    "lng" : "-76.61009"
+  }, {
+    "lat" : "2.44388",
+    "lng" : "-76.61094"
+  }, {
+    "lat" : "2.44401",
+    "lng" : "-76.61135"
+  }, {
+    "lat" : "2.44414",
+    "lng" : "-76.61175"
+  }, {
+    "lat" : "2.44432",
+    "lng" : "-76.61224"
+  }, {
+    "lat" : "2.4445",
+    "lng" : "-76.61272"
+  }, {
+    "lat" : "2.44459",
+    "lng" : "-76.61296"
+  }, {
+    "lat" : "2.44468",
+    "lng" : "-76.61321"
+  }, {
+    "lat" : "2.44481",
+    "lng" : "-76.61356"
+  }, {
+    "lat" : "2.44494",
+    "lng" : "-76.61392"
+  }, {
+    "lat" : "2.44518",
+    "lng" : "-76.61454"
+  }, {
+    "lat" : "2.44524",
+    "lng" : "-76.61471"
+  }, {
+    "lat" : "2.44527",
+    "lng" : "-76.61478"
+  }, {
+    "lat" : "2.44527",
+    "lng" : "-76.61478"
+  }, {
+    "lat" : "2.44527",
+    "lng" : "-76.61481"
+  }, {
+    "lat" : "2.44527",
+    "lng" : "-76.61483"
+  }, {
+    "lat" : "2.44528",
+    "lng" : "-76.61486"
+  }, {
+    "lat" : "2.44531",
+    "lng" : "-76.61493"
+  }, {
+    "lat" : "2.44532",
+    "lng" : "-76.61497"
+  }, {
+    "lat" : "2.44558",
+    "lng" : "-76.61554"
+  }, {
+    "lat" : "2.4457",
+    "lng" : "-76.61578"
+  }, {
+    "lat" : "2.44585",
+    "lng" : "-76.6161"
+  }, {
+    "lat" : "2.446",
+    "lng" : "-76.61642"
+  }, {
+    "lat" : "2.44605",
+    "lng" : "-76.61651"
+  }, {
+    "lat" : "2.44609",
+    "lng" : "-76.6166"
+  }, {
+    "lat" : "2.44625",
+    "lng" : "-76.61695"
+  }, {
+    "lat" : "2.44642",
+    "lng" : "-76.6173"
+  }, {
+    "lat" : "2.44679",
+    "lng" : "-76.61812"
+  }, {
+    "lat" : "2.44683",
+    "lng" : "-76.61821"
+  }, {
+    "lat" : "2.44693",
+    "lng" : "-76.61841"
+  }, {
+    "lat" : "2.44724",
+    "lng" : "-76.61909"
+  }, {
+    "lat" : "2.44736",
+    "lng" : "-76.61933"
+  }, {
+    "lat" : "2.44753",
+    "lng" : "-76.61969"
+  }, {
+    "lat" : "2.44753",
+    "lng" : "-76.61969"
+  }, {
+    "lat" : "2.4476",
+    "lng" : "-76.61983"
+  }, {
+    "lat" : "2.44761",
+    "lng" : "-76.61985"
+  }, {
+    "lat" : "2.44761",
+    "lng" : "-76.61987"
+  }, {
+    "lat" : "2.44762",
+    "lng" : "-76.61988"
+  }, {
+    "lat" : "2.44762",
+    "lng" : "-76.61991"
+  }, {
+    "lat" : "2.44762",
+    "lng" : "-76.61992"
+  }, {
+    "lat" : "2.44761",
+    "lng" : "-76.61995"
+  }, {
+    "lat" : "2.44761",
+    "lng" : "-76.61997"
+  }, {
+    "lat" : "2.44761",
+    "lng" : "-76.61997"
+  }, {
+    "lat" : "2.44767",
+    "lng" : "-76.61998"
+  }, {
+    "lat" : "2.44764",
+    "lng" : "-76.62002"
+  }, {
+    "lat" : "2.44763",
+    "lng" : "-76.62003"
+  }, {
+    "lat" : "2.44763",
+    "lng" : "-76.62004"
+  }, {
+    "lat" : "2.44761",
+    "lng" : "-76.62005"
+  }, {
+    "lat" : "2.4476",
+    "lng" : "-76.62006"
+  }, {
+    "lat" : "2.44759",
+    "lng" : "-76.62007"
+  }, {
+    "lat" : "2.44757",
+    "lng" : "-76.62008"
+  }, {
+    "lat" : "2.44756",
+    "lng" : "-76.62008"
+  }, {
+    "lat" : "2.44747",
+    "lng" : "-76.62011"
+  }, {
+    "lat" : "2.4474",
+    "lng" : "-76.62014"
+  }, {
+    "lat" : "2.44734",
+    "lng" : "-76.62017"
+  }, {
+    "lat" : "2.44732",
+    "lng" : "-76.62019"
+  }, {
+    "lat" : "2.44731",
+    "lng" : "-76.6202"
+  }, {
+    "lat" : "2.44731",
+    "lng" : "-76.62021"
+  }, {
+    "lat" : "2.4473",
+    "lng" : "-76.62021"
+  }, {
+    "lat" : "2.4473",
+    "lng" : "-76.62022"
+  }, {
+    "lat" : "2.4473",
+    "lng" : "-76.62024"
+  }, {
+    "lat" : "2.44731",
+    "lng" : "-76.62028"
+  }, {
+    "lat" : "2.44732",
+    "lng" : "-76.62034"
+  }, {
+    "lat" : "2.44735",
+    "lng" : "-76.62042"
+  }, {
+    "lat" : "2.44738",
+    "lng" : "-76.62049"
+  }, {
+    "lat" : "2.44746",
+    "lng" : "-76.62065"
+  }, {
+    "lat" : "2.44749",
+    "lng" : "-76.62072"
+  }, {
+    "lat" : "2.4475",
+    "lng" : "-76.62075"
+  }, {
+    "lat" : "2.44751",
+    "lng" : "-76.62078"
+  }, {
+    "lat" : "2.44751",
+    "lng" : "-76.62081"
+  }, {
+    "lat" : "2.44751",
+    "lng" : "-76.62085"
+  }, {
+    "lat" : "2.44751",
+    "lng" : "-76.62085"
+  }, {
+    "lat" : "2.44755",
+    "lng" : "-76.62094"
+  }, {
+    "lat" : "2.44782",
+    "lng" : "-76.62149"
+  }, {
+    "lat" : "2.44794",
+    "lng" : "-76.62171"
+  }, {
+    "lat" : "2.44821",
+    "lng" : "-76.62225"
+  }, {
+    "lat" : "2.44851",
+    "lng" : "-76.62279"
+  }, {
+    "lat" : "2.44872",
+    "lng" : "-76.62316"
+  }, {
+    "lat" : "2.44895",
+    "lng" : "-76.6236"
+  }, {
+    "lat" : "2.4491",
+    "lng" : "-76.62385"
+  }, {
+    "lat" : "2.44921",
+    "lng" : "-76.62404"
+  }, {
+    "lat" : "2.44932",
+    "lng" : "-76.62422"
+  }, {
+    "lat" : "2.44986",
+    "lng" : "-76.62502"
+  }, {
+    "lat" : "2.45001",
+    "lng" : "-76.62524"
+  }, {
+    "lat" : "2.45012",
+    "lng" : "-76.62544"
+  }, {
+    "lat" : "2.45021",
+    "lng" : "-76.62561"
+  }, {
+    "lat" : "2.45025",
+    "lng" : "-76.6257"
+  }, {
+    "lat" : "2.45028",
+    "lng" : "-76.62576"
+  }, {
+    "lat" : "2.45032",
+    "lng" : "-76.62588"
+  }, {
+    "lat" : "2.45034",
+    "lng" : "-76.626"
+  }, {
+    "lat" : "2.45037",
+    "lng" : "-76.62616"
+  }, {
+    "lat" : "2.45037",
+    "lng" : "-76.62625"
+  }, {
+    "lat" : "2.45038",
+    "lng" : "-76.6266"
+  }, {
+    "lat" : "2.45038",
+    "lng" : "-76.6273"
+  }, {
+    "lat" : "2.4504",
+    "lng" : "-76.62748"
+  }, {
+    "lat" : "2.45042",
+    "lng" : "-76.62761"
+  }, {
+    "lat" : "2.45047",
+    "lng" : "-76.62779"
+  }, {
+    "lat" : "2.45049",
+    "lng" : "-76.62783"
+  }, {
+    "lat" : "2.45058",
+    "lng" : "-76.62805"
+  }, {
+    "lat" : "2.45061",
+    "lng" : "-76.62811"
+  }, {
+    "lat" : "2.45067",
+    "lng" : "-76.62825"
+  }, {
+    "lat" : "2.45078",
+    "lng" : "-76.62846"
+  }, {
+    "lat" : "2.45096",
+    "lng" : "-76.62878"
+  }, {
+    "lat" : "2.4513",
+    "lng" : "-76.62939"
+  }, {
+    "lat" : "2.45159",
+    "lng" : "-76.62986"
+  }, {
+    "lat" : "2.4516",
+    "lng" : "-76.62989"
+  }, {
+    "lat" : "2.45171",
+    "lng" : "-76.6301"
+  }, {
+    "lat" : "2.45182",
+    "lng" : "-76.63031"
+  }, {
+    "lat" : "2.45229",
+    "lng" : "-76.63117"
+  }, {
+    "lat" : "2.45275",
+    "lng" : "-76.632"
+  }, {
+    "lat" : "2.45282",
+    "lng" : "-76.63212"
+  }, {
+    "lat" : "2.4529",
+    "lng" : "-76.63225"
+  }, {
+    "lat" : "2.45299",
+    "lng" : "-76.6324"
+  }, {
+    "lat" : "2.453",
+    "lng" : "-76.63241"
+  }, {
+    "lat" : "2.453",
+    "lng" : "-76.63242"
+  }, {
+    "lat" : "2.45301",
+    "lng" : "-76.63244"
+  }, {
+    "lat" : "2.45302",
+    "lng" : "-76.63248"
+  }, {
+    "lat" : "2.45302",
+    "lng" : "-76.6325"
+  }, {
+    "lat" : "2.45303",
+    "lng" : "-76.63252"
+  }, {
+    "lat" : "2.45304",
+    "lng" : "-76.63257"
+  }, {
+    "lat" : "2.45306",
+    "lng" : "-76.63262"
+  }, {
+    "lat" : "2.4531",
+    "lng" : "-76.6327"
+  }, {
+    "lat" : "2.45314",
+    "lng" : "-76.63278"
+  }, {
+    "lat" : "2.4532",
+    "lng" : "-76.63289"
+  }, {
+    "lat" : "2.45327",
+    "lng" : "-76.63303"
+  }, {
+    "lat" : "2.45328",
+    "lng" : "-76.63304"
+  }, {
+    "lat" : "2.45342",
+    "lng" : "-76.63331"
+  }, {
+    "lat" : "2.45349",
+    "lng" : "-76.63345"
+  }, {
+    "lat" : "2.45353",
+    "lng" : "-76.63355"
+  }, {
+    "lat" : "2.45359",
+    "lng" : "-76.63364"
+  }, {
+    "lat" : "2.45365",
+    "lng" : "-76.63378"
+  }, {
+    "lat" : "2.45372",
+    "lng" : "-76.63391"
+  }, {
+    "lat" : "2.45375",
+    "lng" : "-76.63395"
+  }, {
+    "lat" : "2.45377",
+    "lng" : "-76.634"
+  }, {
+    "lat" : "2.45383",
+    "lng" : "-76.63411"
+  }, {
+    "lat" : "2.45389",
+    "lng" : "-76.63423"
+  }, {
+    "lat" : "2.45402",
+    "lng" : "-76.63444"
+  }, {
+    "lat" : "2.45415",
+    "lng" : "-76.63465"
+  }, {
+    "lat" : "2.45419",
+    "lng" : "-76.63471"
+  }, {
+    "lat" : "2.45423",
+    "lng" : "-76.63477"
+  }, {
+    "lat" : "2.45431",
+    "lng" : "-76.63489"
+  }, {
+    "lat" : "2.45438",
+    "lng" : "-76.63501"
+  }, {
+    "lat" : "2.45447",
+    "lng" : "-76.63515"
+  }, {
+    "lat" : "2.45456",
+    "lng" : "-76.63529"
+  }, {
+    "lat" : "2.45456",
+    "lng" : "-76.63529"
+  }, {
+    "lat" : "2.45458",
+    "lng" : "-76.63527"
+  }, {
+    "lat" : "2.45461",
+    "lng" : "-76.63526"
+  }, {
+    "lat" : "2.45465",
+    "lng" : "-76.63524"
+  }, {
+    "lat" : "2.45465",
+    "lng" : "-76.63524"
+  }, {
+    "lat" : "2.45465",
+    "lng" : "-76.63524"
+  }, {
+    "lat" : "2.45461",
+    "lng" : "-76.63526"
+  }, {
+    "lat" : "2.45458",
+    "lng" : "-76.63527"
+  }, {
+    "lat" : "2.45456",
+    "lng" : "-76.63529"
+  }, {
+    "lat" : "2.45456",
+    "lng" : "-76.63529"
+  }, {
+    "lat" : "2.45466",
+    "lng" : "-76.63548"
+  }, {
+    "lat" : "2.45477",
+    "lng" : "-76.63566"
+  }, {
+    "lat" : "2.45479",
+    "lng" : "-76.63572"
+  }, {
+    "lat" : "2.45481",
+    "lng" : "-76.63575"
+  }, {
+    "lat" : "2.45481",
+    "lng" : "-76.63576"
+  }, {
+    "lat" : "2.45482",
+    "lng" : "-76.63578"
+  }, {
+    "lat" : "2.45484",
+    "lng" : "-76.63587"
+  }, {
+    "lat" : "2.45485",
+    "lng" : "-76.63594"
+  }, {
+    "lat" : "2.45487",
+    "lng" : "-76.63603"
+  }, {
+    "lat" : "2.45491",
+    "lng" : "-76.6363"
+  }, {
+    "lat" : "2.45512",
+    "lng" : "-76.63742"
+  }, {
+    "lat" : "2.45514",
+    "lng" : "-76.63753"
+  }, {
+    "lat" : "2.45516",
+    "lng" : "-76.63769"
+  }, {
+    "lat" : "2.45517",
+    "lng" : "-76.63779"
+  }, {
+    "lat" : "2.45517",
+    "lng" : "-76.63795"
+  }, {
+    "lat" : "2.45519",
+    "lng" : "-76.63888"
+  }, {
+    "lat" : "2.4552",
+    "lng" : "-76.6392"
+  }, {
+    "lat" : "2.45521",
+    "lng" : "-76.63951"
+  }, {
+    "lat" : "2.45521",
+    "lng" : "-76.63951"
+  }, {
+    "lat" : "2.45526",
+    "lng" : "-76.63951"
+  }, {
+    "lat" : "2.4557",
+    "lng" : "-76.63951"
+  }, {
+    "lat" : "2.45752",
+    "lng" : "-76.63951"
+  }, {
+    "lat" : "2.45784",
+    "lng" : "-76.6395"
+  }, {
+    "lat" : "2.45804",
+    "lng" : "-76.6395"
+  }, {
+    "lat" : "2.45818",
+    "lng" : "-76.63948"
+  }, {
+    "lat" : "2.45834",
+    "lng" : "-76.63946"
+  }, {
+    "lat" : "2.45844",
+    "lng" : "-76.63944"
+  }, {
+    "lat" : "2.45849",
+    "lng" : "-76.63943"
+  }, {
+    "lat" : "2.45854",
+    "lng" : "-76.63939"
+  }, {
+    "lat" : "2.45873",
+    "lng" : "-76.63927"
+  }, {
+    "lat" : "2.45873",
+    "lng" : "-76.63927"
+  }, {
+    "lat" : "2.45874",
+    "lng" : "-76.63924"
+  }, {
+    "lat" : "2.45874",
+    "lng" : "-76.63922"
+  }, {
+    "lat" : "2.45875",
+    "lng" : "-76.6392"
+  }, {
+    "lat" : "2.45876",
+    "lng" : "-76.63918"
+  }, {
+    "lat" : "2.45877",
+    "lng" : "-76.63916"
+  }, {
+    "lat" : "2.45879",
+    "lng" : "-76.63914"
+  }, {
+    "lat" : "2.4588",
+    "lng" : "-76.63913"
+  }, {
+    "lat" : "2.45882",
+    "lng" : "-76.63911"
+  }, {
+    "lat" : "2.45884",
+    "lng" : "-76.6391"
+  }, {
+    "lat" : "2.45886",
+    "lng" : "-76.63909"
+  }, {
+    "lat" : "2.45888",
+    "lng" : "-76.63908"
+  }, {
+    "lat" : "2.4589",
+    "lng" : "-76.63907"
+  }, {
+    "lat" : "2.45892",
+    "lng" : "-76.63907"
+  }, {
+    "lat" : "2.45895",
+    "lng" : "-76.63907"
+  }, {
+    "lat" : "2.45897",
+    "lng" : "-76.63907"
+  }, {
+    "lat" : "2.45899",
+    "lng" : "-76.63907"
+  }, {
+    "lat" : "2.45901",
+    "lng" : "-76.63907"
+  }, {
+    "lat" : "2.45903",
+    "lng" : "-76.63908"
+  }, {
+    "lat" : "2.45906",
+    "lng" : "-76.63909"
+  }, {
+    "lat" : "2.45907",
+    "lng" : "-76.6391"
+  }, {
+    "lat" : "2.45922",
+    "lng" : "-76.63908"
+  }, {
+    "lat" : "2.45939",
+    "lng" : "-76.63906"
+  }, {
+    "lat" : "2.45943",
+    "lng" : "-76.63906"
+  }, {
+    "lat" : "2.45953",
+    "lng" : "-76.63899"
+  }, {
+    "lat" : "2.45969",
+    "lng" : "-76.63886"
+  }, {
+    "lat" : "2.45979",
+    "lng" : "-76.63877"
+  }, {
+    "lat" : "2.45988",
+    "lng" : "-76.63868"
+  }, {
+    "lat" : "2.46001",
+    "lng" : "-76.63853"
+  }, {
+    "lat" : "2.46011",
+    "lng" : "-76.63841"
+  }, {
+    "lat" : "2.46034",
+    "lng" : "-76.63812"
+  }, {
+    "lat" : "2.46089",
+    "lng" : "-76.63737"
+  }, {
+    "lat" : "2.46125",
+    "lng" : "-76.63691"
+  }, {
+    "lat" : "2.46159",
+    "lng" : "-76.63644"
+  }, {
+    "lat" : "2.46371",
+    "lng" : "-76.63368"
+  }, {
+    "lat" : "2.46417",
+    "lng" : "-76.63308"
+  }, {
+    "lat" : "2.46453",
+    "lng" : "-76.63261"
+  }, {
+    "lat" : "2.46489",
+    "lng" : "-76.63211"
+  }, {
+    "lat" : "2.46517",
+    "lng" : "-76.63169"
+  }, {
+    "lat" : "2.46557",
+    "lng" : "-76.63108"
+  }, {
+    "lat" : "2.46626",
+    "lng" : "-76.62989"
+  }, {
+    "lat" : "2.46663",
+    "lng" : "-76.62928"
+  }, {
+    "lat" : "2.46732",
+    "lng" : "-76.62816"
+  }, {
+    "lat" : "2.4682",
+    "lng" : "-76.62674"
+  }, {
+    "lat" : "2.46828",
+    "lng" : "-76.62661"
+  }, {
+    "lat" : "2.46894",
+    "lng" : "-76.62554"
+  }, {
+    "lat" : "2.46909",
+    "lng" : "-76.62528"
+  }, {
+    "lat" : "2.4692",
+    "lng" : "-76.62511"
+  }, {
+    "lat" : "2.46926",
+    "lng" : "-76.62501"
+  }, {
+    "lat" : "2.46932",
+    "lng" : "-76.6249"
+  }, {
+    "lat" : "2.46936",
+    "lng" : "-76.62481"
+  }, {
+    "lat" : "2.46939",
+    "lng" : "-76.62474"
+  }, {
+    "lat" : "2.46945",
+    "lng" : "-76.62458"
+  }, {
+    "lat" : "2.46948",
+    "lng" : "-76.6245"
+  }, {
+    "lat" : "2.46953",
+    "lng" : "-76.62434"
+  }, {
+    "lat" : "2.4696",
+    "lng" : "-76.62402"
+  }, {
+    "lat" : "2.47015",
+    "lng" : "-76.62191"
+  }, {
+    "lat" : "2.47058",
+    "lng" : "-76.62024"
+  }, {
+    "lat" : "2.47064",
+    "lng" : "-76.61999"
+  }, {
+    "lat" : "2.47069",
+    "lng" : "-76.61982"
+  }, {
+    "lat" : "2.47071",
+    "lng" : "-76.61977"
+  }, {
+    "lat" : "2.47075",
+    "lng" : "-76.61967"
+  }, {
+    "lat" : "2.47107",
+    "lng" : "-76.61905"
+  }, {
+    "lat" : "2.47123",
+    "lng" : "-76.61885"
+  }, {
+    "lat" : "2.47137",
+    "lng" : "-76.6187"
+  }, {
+    "lat" : "2.47161",
+    "lng" : "-76.61851"
+  }, {
+    "lat" : "2.47183",
+    "lng" : "-76.61835"
+  }, {
+    "lat" : "2.47348",
+    "lng" : "-76.61753"
+  }, {
+    "lat" : "2.47374",
+    "lng" : "-76.61739"
+  }, {
+    "lat" : "2.47471",
+    "lng" : "-76.61692"
+  }, {
+    "lat" : "2.47565",
+    "lng" : "-76.61646"
+  }, {
+    "lat" : "2.47585",
+    "lng" : "-76.61636"
+  }, {
+    "lat" : "2.47604",
+    "lng" : "-76.61625"
+  }, {
+    "lat" : "2.47617",
+    "lng" : "-76.61617"
+  }, {
+    "lat" : "2.47635",
+    "lng" : "-76.61604"
+  }, {
+    "lat" : "2.47654",
+    "lng" : "-76.61587"
+  }, {
+    "lat" : "2.47674",
+    "lng" : "-76.61566"
+  }, {
+    "lat" : "2.47684",
+    "lng" : "-76.61554"
+  }, {
+    "lat" : "2.47696",
+    "lng" : "-76.61538"
+  }, {
+    "lat" : "2.47712",
+    "lng" : "-76.6151"
+  }, {
+    "lat" : "2.47724",
+    "lng" : "-76.61484"
+  }, {
+    "lat" : "2.47734",
+    "lng" : "-76.61455"
+  }, {
+    "lat" : "2.47737",
+    "lng" : "-76.61439"
+  }, {
+    "lat" : "2.47743",
+    "lng" : "-76.61413"
+  }, {
+    "lat" : "2.47762",
+    "lng" : "-76.6131"
+  }, {
+    "lat" : "2.47769",
+    "lng" : "-76.61273"
+  }, {
+    "lat" : "2.47779",
+    "lng" : "-76.61209"
+  }, {
+    "lat" : "2.4779",
+    "lng" : "-76.61146"
+  }, {
+    "lat" : "2.47804",
+    "lng" : "-76.61081"
+  }, {
+    "lat" : "2.47814",
+    "lng" : "-76.61041"
+  }, {
+    "lat" : "2.47827",
+    "lng" : "-76.61"
+  }, {
+    "lat" : "2.4784",
+    "lng" : "-76.60969"
+  }, {
+    "lat" : "2.47862",
+    "lng" : "-76.60932"
+  }, {
+    "lat" : "2.47881",
+    "lng" : "-76.60905"
+  }, {
+    "lat" : "2.47928",
+    "lng" : "-76.60838"
+  }, {
+    "lat" : "2.47944",
+    "lng" : "-76.60816"
+  }, {
+    "lat" : "2.47965",
+    "lng" : "-76.60786"
+  }, {
+    "lat" : "2.47988",
+    "lng" : "-76.60753"
+  }, {
+    "lat" : "2.48007",
+    "lng" : "-76.60723"
+  }, {
+    "lat" : "2.48025",
+    "lng" : "-76.6069"
+  }, {
+    "lat" : "2.48035",
+    "lng" : "-76.60668"
+  }, {
+    "lat" : "2.48037",
+    "lng" : "-76.60659"
+  }, {
+    "lat" : "2.48043",
+    "lng" : "-76.60635"
+  }, {
+    "lat" : "2.48046",
+    "lng" : "-76.60618"
+  }, {
+    "lat" : "2.48049",
+    "lng" : "-76.606"
+  }, {
+    "lat" : "2.48052",
+    "lng" : "-76.60575"
+  }, {
+    "lat" : "2.4805",
+    "lng" : "-76.60554"
+  }, {
+    "lat" : "2.48048",
+    "lng" : "-76.60529"
+  }, {
+    "lat" : "2.48046",
+    "lng" : "-76.60516"
+  }, {
+    "lat" : "2.4804",
+    "lng" : "-76.60487"
+  }, {
+    "lat" : "2.48027",
+    "lng" : "-76.60421"
+  }, {
+    "lat" : "2.48008",
+    "lng" : "-76.60337"
+  }, {
+    "lat" : "2.47967",
+    "lng" : "-76.60162"
+  }, {
+    "lat" : "2.47927",
+    "lng" : "-76.59983"
+  }, {
+    "lat" : "2.47897",
+    "lng" : "-76.59847"
+  }, {
+    "lat" : "2.4789",
+    "lng" : "-76.59804"
+  }, {
+    "lat" : "2.47885",
+    "lng" : "-76.59762"
+  }, {
+    "lat" : "2.47884",
+    "lng" : "-76.59743"
+  }, {
+    "lat" : "2.47885",
+    "lng" : "-76.59714"
+  }, {
+    "lat" : "2.47897",
+    "lng" : "-76.5961"
+  }, {
+    "lat" : "2.47911",
+    "lng" : "-76.5951"
+  }, {
+    "lat" : "2.47916",
+    "lng" : "-76.59473"
+  }, {
+    "lat" : "2.47941",
+    "lng" : "-76.59344"
+  }, {
+    "lat" : "2.47944",
+    "lng" : "-76.59293"
+  }, {
+    "lat" : "2.47937",
+    "lng" : "-76.59172"
+  }, {
+    "lat" : "2.47928",
+    "lng" : "-76.59076"
+  }, {
+    "lat" : "2.47927",
+    "lng" : "-76.5905"
+  }, {
+    "lat" : "2.47927",
+    "lng" : "-76.58988"
+  }, {
+    "lat" : "2.47929",
+    "lng" : "-76.58963"
+  }, {
+    "lat" : "2.47932",
+    "lng" : "-76.58946"
+  }, {
+    "lat" : "2.47939",
+    "lng" : "-76.58925"
+  }, {
+    "lat" : "2.47951",
+    "lng" : "-76.58899"
+  }, {
+    "lat" : "2.4797",
+    "lng" : "-76.58869"
+  }, {
+    "lat" : "2.4799",
+    "lng" : "-76.58848"
+  }, {
+    "lat" : "2.48021",
+    "lng" : "-76.58826"
+  }, {
+    "lat" : "2.48051",
+    "lng" : "-76.58811"
+  }, {
+    "lat" : "2.48114",
+    "lng" : "-76.58792"
+  }, {
+    "lat" : "2.48201",
+    "lng" : "-76.58772"
+  }, {
+    "lat" : "2.4821",
+    "lng" : "-76.58769"
+  }, {
+    "lat" : "2.48373",
+    "lng" : "-76.58726"
+  }, {
+    "lat" : "2.48547",
+    "lng" : "-76.58681"
+  }, {
+    "lat" : "2.48713",
+    "lng" : "-76.58637"
+  }, {
+    "lat" : "2.48752",
+    "lng" : "-76.58627"
+  }, {
+    "lat" : "2.48752",
+    "lng" : "-76.58627"
+  }, {
+    "lat" : "2.48767",
+    "lng" : "-76.58636"
+  }, {
+    "lat" : "2.48767",
+    "lng" : "-76.58636"
+  }, {
+    "lat" : "2.48752",
+    "lng" : "-76.58627"
+  }, {
+    "lat" : "2.48752",
+    "lng" : "-76.58627"
+  }, {
+    "lat" : "2.48713",
+    "lng" : "-76.58637"
+  }, {
+    "lat" : "2.48713",
+    "lng" : "-76.58637"
+  }, {
+    "lat" : "2.48667",
+    "lng" : "-76.58529"
+  }, {
+    "lat" : "2.48623",
+    "lng" : "-76.58429"
+  }, {
+    "lat" : "2.48601",
+    "lng" : "-76.58381"
+  }, {
+    "lat" : "2.48599",
+    "lng" : "-76.58378"
+  }, {
+    "lat" : "2.48592",
+    "lng" : "-76.58364"
+  }, {
+    "lat" : "2.48584",
+    "lng" : "-76.58349"
+  }, {
+    "lat" : "2.48576",
+    "lng" : "-76.58334"
+  }, {
+    "lat" : "2.48568",
+    "lng" : "-76.58319"
+  }, {
+    "lat" : "2.48567",
+    "lng" : "-76.58316"
+  }, {
+    "lat" : "2.48565",
+    "lng" : "-76.58311"
+  }, {
+    "lat" : "2.4856",
+    "lng" : "-76.583"
+  }, {
+    "lat" : "2.48553",
+    "lng" : "-76.58285"
+  }, {
+    "lat" : "2.48546",
+    "lng" : "-76.58268"
+  }, {
+    "lat" : "2.48538",
+    "lng" : "-76.58251"
+  }, {
+    "lat" : "2.48496",
+    "lng" : "-76.58168"
+  }, {
+    "lat" : "2.48479",
+    "lng" : "-76.58134"
+  }, {
+    "lat" : "2.48474",
+    "lng" : "-76.58125"
+  }, {
+    "lat" : "2.48442",
+    "lng" : "-76.58062"
+  }, {
+    "lat" : "2.48419",
+    "lng" : "-76.58016"
+  }, {
+    "lat" : "2.48405",
+    "lng" : "-76.57986"
+  }, {
+    "lat" : "2.48391",
+    "lng" : "-76.57957"
+  }, {
+    "lat" : "2.48383",
+    "lng" : "-76.57941"
+  }, {
+    "lat" : "2.4838",
+    "lng" : "-76.57934"
+  }, {
+    "lat" : "2.48376",
+    "lng" : "-76.57925"
+  }, {
+    "lat" : "2.48365",
+    "lng" : "-76.57903"
+  }, {
+    "lat" : "2.48355",
+    "lng" : "-76.57882"
+  }, {
+    "lat" : "2.48343",
+    "lng" : "-76.57856"
+  }, {
+    "lat" : "2.48341",
+    "lng" : "-76.57851"
+  }, {
+    "lat" : "2.48326",
+    "lng" : "-76.5782"
+  }, {
+    "lat" : "2.48314",
+    "lng" : "-76.57798"
+  }, {
+    "lat" : "2.48302",
+    "lng" : "-76.57777"
+  }, {
+    "lat" : "2.48294",
+    "lng" : "-76.57762"
+  }, {
+    "lat" : "2.48286",
+    "lng" : "-76.57747"
+  }, {
+    "lat" : "2.48268",
+    "lng" : "-76.57705"
+  }, {
+    "lat" : "2.48249",
+    "lng" : "-76.57664"
+  }, {
+    "lat" : "2.48241",
+    "lng" : "-76.57647"
+  }, {
+    "lat" : "2.48232",
+    "lng" : "-76.5763"
+  }, {
+    "lat" : "2.48215",
+    "lng" : "-76.57595"
+  }, {
+    "lat" : "2.48197",
+    "lng" : "-76.57559"
+  }, {
+    "lat" : "2.48182",
+    "lng" : "-76.57526"
+  }, {
+    "lat" : "2.48167",
+    "lng" : "-76.57493"
+  }, {
+    "lat" : "2.48167",
+    "lng" : "-76.57493"
+  }, {
+    "lat" : "2.48143",
+    "lng" : "-76.57476"
+  }, {
+    "lat" : "2.48149",
+    "lng" : "-76.57472"
+  }, {
+    "lat" : "2.48155",
+    "lng" : "-76.57468"
+  }, {
+    "lat" : "2.48164",
+    "lng" : "-76.57466"
+  }, {
+    "lat" : "2.48164",
+    "lng" : "-76.57466"
+  }, {
+    "lat" : "2.48163",
+    "lng" : "-76.57456"
+  } ] ],
+  "objects" : {
+    "-KfaCoutOX44d2SnVCD9" : {
+      "drawable" : 2130837614,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaDkF9PuvWxLbB-IUk" : {
+      "drawable" : 2130837614,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaDkqGdiB4D3q-nwpY" : {
+      "drawable" : 2130837614,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaDvzpc2uCiWTrAT7b" : {
+      "drawable" : 2130837614,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaDxpIjrGWDmgXFJsJ" : {
+      "drawable" : 2130837614,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaEjGTJrbbL5OEf5F7" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaEm8j0DtPBiLwwv_b" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaEmGq6Z8CSrMnMtYO" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaEmNNw1aq1nzsfhnE" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaEmQUUqk4YNdGT4By" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaEmTbBusvgH6QfEp-" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaEmWi7d_wIZWmo4B1" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaEmZeUOfc--Q1IOPy" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaEmbm4YLae2r4b-Xj" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaEmeK_kYM7B0tOypT" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaEmhT2GA2LU-mO7ly" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaEmkY5nINvbGXQdSh" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaEmojTlq4sVudvsFr" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaEms2vEcQuH_cEMXu" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaEmvB_PgOrZKKOEoa" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaEmyJ1uuSUrEEJbwc" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaFBiDFUnfGsPDwa9F" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaFR2Wq4qXxruopKd6" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfaFY395iO_2wha_Oez" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfbMZfLysLCTyt3a9He" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-Kfbv8EafOnbtkjcgx57" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-Kfbz3bzIknkj_TiyMJ9" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfbzMmVM6VYKTlrQoIn" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfbzNfXQIbKMMuO8wje" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfbzNpRuSvkJNI4qVi5" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfbzNvDshebNW7SpWXC" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfcDhFmsFpUeENdEI2b" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfcH2uhleXG6FtDJRd1" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfnGwIun1R6d90lrHpT" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KfoxQ5ER3QhLJ7GuyZW" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    },
+    "-KgA6w2EMiY6ZnshOOD_" : {
+      "drawable" : 2130837625,
+      "lat" : 2.4592,
+      "lng" : -76.5934,
+      "name" : "Campanario"
+    }
+  }
+}

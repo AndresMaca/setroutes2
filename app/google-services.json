@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "549058542708",
+    "firebase_url": "https://location01-aa962.firebaseio.com",
+    "project_id": "location01-aa962",
+    "storage_bucket": "location01-aa962.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549058542708:android:48cfb685d3b00972",
+        "android_client_info": {
+          "package_name": "com.macapps.developer.firstmapexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549058542708-bnmg18crn9358m8c39tb16p0d0vno9gs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.macapps.developer.firstmapexample",
+            "certificate_hash": "9992d9516813065d93e5418f358e3697faa47fd6"
+          }
+        },
+        {
+          "client_id": "549058542708-di3u4t06n3eplucgtjkobc9tbr07b5n0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHSlDEDHsvsLfk34noOfgKmXmml0D2_pE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549058542708-di3u4t06n3eplucgtjkobc9tbr07b5n0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549058542708:android:42937fae98069262",
+        "android_client_info": {
+          "package_name": "com.macapps.developer.firebasetrash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549058542708-o5juahffbpkrc7efvjrl24p8o2fc6ijg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.macapps.developer.firebasetrash",
+            "certificate_hash": "9992d9516813065d93e5418f358e3697faa47fd6"
+          }
+        },
+        {
+          "client_id": "549058542708-di3u4t06n3eplucgtjkobc9tbr07b5n0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHSlDEDHsvsLfk34noOfgKmXmml0D2_pE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549058542708-di3u4t06n3eplucgtjkobc9tbr07b5n0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549058542708:android:dba3f196d4d28676",
+        "android_client_info": {
+          "package_name": "com.macapps.developer.mapsfbmixtrash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549058542708-kt9obehp3l7me96cop0l4fufrc27239l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.macapps.developer.mapsfbmixtrash",
+            "certificate_hash": "9992d9516813065d93e5418f358e3697faa47fd6"
+          }
+        },
+        {
+          "client_id": "549058542708-di3u4t06n3eplucgtjkobc9tbr07b5n0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHSlDEDHsvsLfk34noOfgKmXmml0D2_pE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549058542708-di3u4t06n3eplucgtjkobc9tbr07b5n0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549058542708:android:2bf8f58194745c70",
+        "android_client_info": {
+          "package_name": "com.macapps.developer.maptrash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549058542708-s35raml89gfaf15abuchgi0cnareo44a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.macapps.developer.maptrash",
+            "certificate_hash": "9992d9516813065d93e5418f358e3697faa47fd6"
+          }
+        },
+        {
+          "client_id": "549058542708-di3u4t06n3eplucgtjkobc9tbr07b5n0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHSlDEDHsvsLfk34noOfgKmXmml0D2_pE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549058542708-di3u4t06n3eplucgtjkobc9tbr07b5n0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
